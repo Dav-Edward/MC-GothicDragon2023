@@ -1,0 +1,869 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "main"
+	group: "3452F45AD8379C9A"
+	icon: "minecraft:writable_book"
+	id: "612C77138D5B6324"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "dragonsurvival:item/beacon_magic_1"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "dragonsurvival:textures/skills/unclaimed/acid_breath_1.png"
+			order: -2
+			rotation: 0.0d
+			width: 33.0d
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{image:upgradednetherite:items/fire_upgraded_netherite_helmet width:50 height:50 align:1}"
+				"{chapter.1.quest.13.description.19999}"
+				"{image:gothic:items/magic_ore_ingot width:50 height:50 align:1}"
+				""
+				"{chapter.1.quest.13.subtitle9999}"
+				"{image:magistuarmory:item/copper_flamebladedsword width:100 height:100 align:1}"
+				""
+				"{chapter.1.quest.13.title9999}"
+				""
+				"{image:upgrade_aquatic:textures/mob_effect/vibing.png width:50 height:50 align:1}"
+				""
+				"■ - Art by Fool (King Fall Project)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "0F7339A3C5A449DB"
+			rewards: [
+				{
+					id: "47A97FD96FAFF71B"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "61ED4F0C7CE03DA0"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+				{
+					id: "3EE2BC7C49CEE533"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "4B7D0D13AEB42EC4"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.14.description.19999}"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{image:dragonsurvival:item/elder_dragon_dust width:40 height:40 align:1}"
+				"{chapter.1.quest.14.description.29999}"
+				"{image:dragonsurvival:item/elder_dragon_bone width:40 height:40 align:1}"
+				"{chapter.1.quest.14.subtitle9999}"
+				""
+				"{image:dragonsurvival:block/dragon_altar_blackstone_south width:40 height:40 align:1}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "39F9B01FF250BF43"
+			rewards: [
+				{
+					id: "3C33D47B80229EE7"
+					item: "dragonsurvival:elder_dragon_bone"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "7F68AAE86FD5943A"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+				{
+					id: "3F9A5301B0A5C7CF"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "039E1351F9A90F16"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.14.title9999}"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{image:ftblibrary:icons/settings width:50 height:50 align:1}"
+				""
+				"{chapter.1.quest.15.description.19999}"
+				"{image:supplementaries:textures/gui/book/icon/discord.png width:50 height:50 align:1}"
+				"{chapter.1.quest.15.subtitle9999}"
+				"{image:supplementaries:textures/gui/book/icon/curseforge.png width:50 height:50 align:1}"
+				"{chapter.1.quest.15.title9999}"
+				""
+				"{image:supplementaries:textures/gui/book/map_markers/map_markers.png width:100 height:100 align:1}"
+				"{chapter.1.quest.16.description9999.1}"
+				""
+				"{image:sophisticatedstorage:item/debug_tool width:50 height:50 align:1}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "090F706084C2E2D2"
+			rewards: [
+				{
+					count: 6
+					id: "1AF4C5E6A440D377"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+				{
+					id: "297B3005C8320217"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0699F1151FCCEA2E"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.16.subtitle9999}"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{image:gothic:items/magic_ore width:50 height:50 align:1}"
+				"{chapter.1.quest.16.title9999}"
+				"{image:gothic:items/tobacco_mushroom width:50 height:50 align:1}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "7303ACD6E360A91D"
+			rewards: [
+				{
+					count: 10
+					id: "496777B71C206CEB"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+				{
+					id: "73001F512E74D1BD"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "62AFC80A57DEB34E"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.17.description.19999}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7303ACD6E360A91D"]
+			hide: false
+			hide_dependency_lines: true
+			icon: "sophisticatedbackpacks:backpack"
+			id: "5F5A09C3BCB9078D"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "2C6DEDF8B1D49A28"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "70C7596153945AD8"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"24CAAF553B937278"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/iron_ingot"
+				}
+			}
+			id: "534085C7D36B9FEB"
+			rewards: [{
+				id: "108DE7D4C0E7B745"
+				table_id: 8658179370648567111L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "6BCBA1014DBE3DCF"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7303ACD6E360A91D"]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "torchmaster:block/megatorch"
+				}
+			}
+			id: "1C1A28383863C19E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63E8C47145C22E51"
+				table_id: 2810768351323335676L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "71238572FBA01643"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"7F7BFCB4BD1F2313"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dragonsurvival:item/elder_dragon_dust"
+				}
+			}
+			id: "5EBE712E404F9444"
+			rewards: [{
+				count: 64
+				id: "7DC7D953E02CE21E"
+				item: "dragonsurvival:elder_dragon_dust"
+				random_bonus: 64
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "39CBC08CC9E03ECD"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"52D96363EBB9FA40"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gothic:items/old_mineshaft_pickaxe"
+				}
+			}
+			id: "46E0316901520CF6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BD1C0A9A85A85C3"
+				table_id: 6967312295704014773L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "22333D908EB4737A"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"46315FCC105CBB18"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: "gothic:turnip_seeds"
+			id: "01D2EB7F518339AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "280E1BD195AE3D5A"
+				table_id: 1092463397879053135L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "3D585B3CEA867C26"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"10FCAAA03E14A47D"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: "gothic:meat"
+			id: "5405EA427C45DCE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32D1790565A95B31"
+				table_id: 5487142253723816397L
+				type: "choice"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0D0BAAEE3BF81DDA"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"77FCBC8570CBBE90"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dragonsurvival:item/princess_summon"
+				}
+			}
+			id: "10CE06F45143C4E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46F98E0E814CD60D"
+				table_id: 9073722361922691529L
+				type: "choice"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "1BCC30F41AE5216C"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"31EC3FCA8B910425"
+				"27E4A34A05A1243E"
+				"6AA55D106E772C59"
+				"792423B11D708141"
+				"7DB1534AE1F7F2E3"
+				"4F9A9AF1203E963C"
+				"6DFACF2362298A74"
+			]
+			hide: false
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gateways:item/gate_pearl_small"
+				}
+			}
+			id: "3C673EBB6F778CD4"
+			min_required_dependencies: 3
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6342A974F160A1D0"
+				table_id: 11173363442446783L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "07CA019601C68721"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"32F5BE86D50B117D"
+				"1D9DCB82F3EB4B84"
+				"29B3E0466AB00D59"
+				"4E977CDF6BB2790A"
+				"1938625CFFACF595"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gateways:item/gate_pearl_med"
+				}
+			}
+			id: "6E68042AE268A693"
+			min_required_dependencies: 3
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65BB973541D47973"
+				table_id: 487441618020744414L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "4027BDD8C4CD6786"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"58A05C0F68F6AD5E"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: "villagersellanimals:crate_chick"
+			id: "568D8F9BCD47A910"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13F79CABB03849F6"
+				table_id: 5410453719053858354L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "66BA199F8BE4D6F1"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"5CE8A1AD16CBCD96"
+				"2BAD5F045D9C946A"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: "gothic:book_extract_mandibles"
+			id: "1059C17AD9C29421"
+			repeatable: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69C4155713E56832"
+				table_id: 6617153285199686100L
+				type: "choice"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 124L
+				id: "7D7DC8FBB69C146C"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"6C3C3AF64A2E8470"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: "nourished_nether:netherite_nugget"
+			id: "7CE1BC60CE0C16F8"
+			rewards: [{
+				auto: "disabled"
+				id: "17ABE6865DA75CDF"
+				item: "nourished_nether:netherite_nugget"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 124L
+				id: "2DB349AE123FA2DF"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"3F1003429EFC5364"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dragonsurvival:item/charged_coal"
+				}
+			}
+			id: "1C0A949B8A86AAEC"
+			rewards: [{
+				count: 12
+				id: "66D70E558E97BEF8"
+				item: "dragonsurvival:charged_coal"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "097521D77EDB0978"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"4D3A3B0DA469E17E"
+				"0466197830154B49"
+				"00571BB2999E2170"
+			]
+			dependency_requirement: "all_started"
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gateways:item/gate_pearl_large"
+				}
+			}
+			id: "745DBB0774A2121D"
+			min_required_dependencies: 3
+			rewards: [{
+				id: "3A81ECE6BE0C0C7E"
+				table_id: 409152098153127918L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "320A44BFA1931D8E"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7303ACD6E360A91D"]
+			hide: false
+			hide_dependency_lines: true
+			icon: "minecraft:oak_log"
+			id: "4574A0A3BC32A8E8"
+			rewards: [{
+				count: 32
+				id: "4700FBD158620DF6"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "736D29D54D4F4E69"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"5F7D456F10FFC22E"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: "create:experience_nugget"
+			id: "457BFC8C8CED49FE"
+			rewards: [{
+				id: "15411A3DFC0C2DE9"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "0D9C7086E6FF29F5"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7303ACD6E360A91D"
+				"31C146554B846705"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "apotheosis:items/gems/brawlers"
+				}
+			}
+			id: "05B7484BF2781DAC"
+			rewards: [{
+				id: "5E9D190D3470A90E"
+				table_id: 8567660758720551313L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6C9AA06F4C56B138"
+				item: "gothic:magic_ore_nugget"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["259173E633BA654B"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 22
+					}
+				}
+				id: "tarotcards:tarot_deck"
+			}
+			id: "300B8DFF21281EC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44066DBE6AB34441"
+				table_id: 3370827541920411488L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 248L
+				id: "71EE485045CDFC24"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7EEA30C1C8849919"]
+			icon: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					facets: 5
+					gem: "apotheosis:core/brawlers"
+					rarity: "ancient"
+					uuids: [[I;
+						1819807357
+						-1066579322
+						-1695049994
+						741555935
+					]]
+				}
+			}
+			id: "5CD6F4CF5AD3E205"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B544F6A8769CA7F"
+				table_id: 5418009430598187773L
+				type: "choice"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 768L
+				id: "54D505EBE5DFCBAB"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["32B657DDEC65965B"]
+			icon: "dragonsurvival:wing_grant"
+			id: "07A002EB513B0EC0"
+			rewards: [{
+				id: "3972F5D73224FD9F"
+				item: "dragonsurvival:wing_grant"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "631C65AF9D32E796"
+				item: "gothic:magic_ore_nugget"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+	]
+	title: "{chapter.1.quest.17.subtitle9999}"
+}

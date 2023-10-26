@@ -1,0 +1,133 @@
+[
+  {
+    "mob": ["minecraft:cod", "minecraft:salmon"],
+    "persecond": 0.8,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+	  "inwater": true,
+      "mindist": 25,
+      "maxdist": 100,
+      "maxheight": 30,
+	  "minheight": -64
+    }
+  },
+  {
+    "mob": ["minecraft:drowned", "zombiemobs:zombie_dolphin", "zombiemobs:zombie_turtle", "zombiemobs:zombie_squid", "upgrade_aquatic:thrasher"],
+    "persecond": 0.3,
+    "attempts": 3,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+	  "inwater": true,
+      "mindist": 40,
+      "maxdist": 100,
+      "maxheight": 30,
+	  "minheight": -64
+    }
+  },
+  {
+    "mob": ["minecraft:stray"],
+    "persecond": 0.1,
+    "attempts": 3,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 25,
+      "maxdist": 100,
+      "maxheight": 1,
+	  "minheight": -64
+    }
+  },
+  {
+    "mob": ["kobolds:kobold_zombie"],
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 25,
+      "maxdist": 100,
+      "maxheight": 50,
+	  "minheight": -1
+    }
+  },
+  {
+    "mob": ["minecraft:phantom"],
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:the_end",
+      "mindist": 30,
+      "maxdist": 100,
+      "maxheight": 180,
+	  "minheight": -64
+    }
+  },
+  {
+    "mob": ["kobolds:kobold_skeleton"],
+    "persecond": 0.1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 25,
+      "maxdist": 100,
+      "maxheight": 1,
+	  "minheight": -64}
+  },
+  {
+    "mob": ["mutantmonsters:mutant_skeleton"],
+    "persecond": 0.1,
+    "attempts": 1,
+	"weights": 3,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 60,
+      "maxdist": 100,
+      "maxheight": -45,
+	  "minheight": -64
+    }
+  },
+  {
+    "mob": ["mutantmonsters:mutant_zombie"],
+    "persecond": 0.1,
+    "attempts": 1,
+	"weights": 3,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 60,
+      "maxdist": 100,
+      "maxheight": -45,
+	  "minheight": -64
+    }
+  }
+]

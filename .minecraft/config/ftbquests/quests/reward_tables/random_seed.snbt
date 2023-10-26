@@ -1,0 +1,21 @@
+{
+	id: "0F2935AC18B27B4F"
+	loot_size: 3
+	order_index: 5
+	rewards: [
+		{ item: "gothic:turnip_seeds", weight: 0.1f }
+		{ item: "gothic:blue_elder_seeds", weight: 0.1f }
+		{ item: "gothic:meadow_knotweed_seeds", weight: 0.1f }
+		{ item: "gothic:snapperweed_seeds", weight: 0.1f }
+		{ item: "gothic:kings_sorrel_seeds", weight: 0.1f }
+		{ item: "gothic:swampweed_seeds", weight: 0.1f }
+		{ item: "minecraft:wheat_seeds" }
+		{ item: "minecraft:pumpkin_seeds" }
+		{ item: "minecraft:melon_seeds" }
+		{ item: "farmersdelight:cabbage_seeds" }
+		{ item: "farmersdelight:tomato_seeds" }
+		{ item: "supplementaries:flax_seeds" }
+		{ item: "minecraft:chorus_flower", weight: 0.05f }
+	]
+	title: "Random Herb"
+}

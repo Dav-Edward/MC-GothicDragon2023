@@ -1,0 +1,1362 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "all_dragon"
+	group: "330390FADA7F7F42"
+	icon: "dragonsurvival:empty_dragon_beacon"
+	id: "4358C2C859853117"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:textures/mob_effect/fire_resistance.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:textures/mob_effect/absorption.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: -3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["70E77698A7EF3F23"]
+			description: [
+				"{chapter.1.quest.3.description.1}"
+				"{image:dragonsurvival:textures/gui/editor_icons/sea/horns/horns_11.png width:100 height:100 align:1}"
+				"{chapter.1.quest.3.description.2}"
+			]
+			disable_toast: true
+			hide: false
+			icon: "dragonsurvival:dragon_altar_stone"
+			id: "3FBA35A1D3166CEF"
+			rewards: [{
+				id: "070B89A8FFA74444"
+				item: "dragonsurvival:elder_dragon_bone"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "{chapter.1.quest.3.subtitle}"
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "31E97AD28FCCEF9E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "dragonsurvival:dragon_altars"
+					}
+				}
+				only_from_crafting: false
+				title: "{chapter.1.quest.3.task.1.title}"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.3.title}"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{image:blackaures_paintings:textures/p10.png width:150 height:100 align:1}"
+				"{chapter.1.quest.4.description.1}"
+				"{image:dragonsurvival:textures/item/elder_dragon_bone.png width:100 height:100 align:1}"
+			]
+			icon: "dragonsurvival:elder_dragon_dust"
+			id: "70E77698A7EF3F23"
+			rewards: [{
+				id: "48ABF0B49AAF8F4F"
+				item: "dragonsurvival:elder_dragon_bone"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{chapter.1.quest.4.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 9L
+				id: "7E21E82E3E75D478"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.4.title}"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FBA35A1D3166CEF"]
+			description: [
+				"{chapter.1.quest.5.description.1}"
+				""
+				"{image:dragonsurvival:textures/skills/forest/forest_wings_1.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "dragonsurvival:wing_grant"
+			id: "32B657DDEC65965B"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "58D836FAE130F8BC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "336C7A95F44CA9AB"
+					item: "dragonsurvival:wing_grant"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.1.quest.5.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "7227D2453FB5C0EB"
+				item: "minecraft:feather"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "{chapter.1.quest.5.title}"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32B657DDEC65965B"]
+			description: [
+				"{chapter.1.quest.6.description.1}"
+				"{image:dragonsurvival:textures/skills/cave/cave_wings_0.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "dragonsurvival:spin_grant"
+			id: "34904282BE05F44D"
+			rewards: [{
+				id: "4F361E76010C6304"
+				item: "dragonsurvival:spin_grant"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{chapter.1.quest.6.subtitle}"
+			tasks: [{
+				icon: "minecraft:dragon_head"
+				id: "572A70BF85FAA4DD"
+				observe_type: 5
+				timer: 5L
+				to_observe: "minecraft:ender_dragon"
+				type: "observation"
+			}]
+			title: "{chapter.1.quest.6.title}"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3FBA35A1D3166CEF"]
+			description: [
+				"{chapter.1.quest.7.description.1}"
+				"{image:apotheosis:blocks/draconic_endshelf width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "minecraft:end_rod"
+			id: "6E4B86A50862D01B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1E9201D0C2526C47"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70E295CC35C2241D"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.1.quest.7.subtitle}"
+			tasks: [{
+				id: "4E995AC940DCFEC7"
+				points: false
+				title: "{chapter.1.quest.7.task.1.title}"
+				type: "xp"
+				value: 10L
+			}]
+			title: "{chapter.1.quest.7.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E4B86A50862D01B"]
+			description: [
+				"{chapter.1.quest.8.description.1}"
+				"{image:ends_delight:item/raw_dragon_meat width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "cnb:lizard_item_jungle_2"
+			id: "5DC795F6353EAFE4"
+			rewards: [
+				{
+					count: 3
+					id: "2FD2FF6F06127050"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1162049B9782E95E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.1.quest.8.subtitle}"
+			tasks: [{
+				id: "0B56F7DFF59D14A7"
+				points: false
+				title: "{chapter.1.quest.8.task.1.title}"
+				type: "xp"
+				value: 20L
+			}]
+			title: "{chapter.1.quest.8.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"57197D4C2857ECDA"
+				"0283889A27484BF2"
+				"4715FA66216039D5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{chapter.1.quest.9.description.1}"
+				""
+				"{image:dragonsurvival:textures/block/dragons_memory_side.png width:100 height:100 align:1}"
+			]
+			icon: "dragonsurvival:dragon_memory_block"
+			id: "72B9A94D8B29C84C"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "7A282D974DCC5E85"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			subtitle: "{chapter.1.quest.9.subtitle}"
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "77545E30F8D9DA95"
+				item: "dragonsurvival:dragon_memory_block"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"186D93D569220363"
+				"3F0D764859EC5E70"
+			]
+			description: [
+				"{chapter.1.quest.10.description.1}"
+				"{image:minecraft:textures/block/beacon.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "dragonsurvival:empty_dragon_beacon"
+			id: "7E145E32351E8DB4"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "4161E29A00F25815"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "pentagon"
+			subtitle: "{chapter.1.quest.10.subtitle}"
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "7F7BFCB4BD1F2313"
+				item: "dragonsurvival:empty_dragon_beacon"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "{chapter.1.quest.10.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FBA35A1D3166CEF"]
+			description: [
+				"{chapter.1.quest.11.description.1}"
+				"{image:minecraft:textures/mob_effect/bad_omen.png width:100 height:100 align:1}"
+				"{chapter.1.quest.11.description.2}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "apotheosis:textures/mob_effect/grievous.png"
+				}
+			}
+			id: "186D93D569220363"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "4A7DAD99BC3A0D48"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			subtitle: "{chapter.1.quest.11.subtitle}"
+			tasks: [{
+				id: "4B94D93E219B861A"
+				title: "{chapter.1.quest.11.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.11.title}"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FBA35A1D3166CEF"]
+			description: [
+				"{chapter.1.quest.12.description.1}"
+				"{image:dragonsurvival:textures/gui/dragon_claws_button.png width:100 height:100 align:1}"
+				"{chapter.1.quest.12.description.2}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "orcz:textures/mob_effect/gettingstriked.png"
+				}
+			}
+			id: "3F0D764859EC5E70"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "27B7A623EFAFA09A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			subtitle: "{chapter.1.quest.12.subtitle}"
+			tasks: [{
+				id: "19AB8DDBA5317797"
+				title: "{chapter.1.quest.12.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.12.title}"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FBA35A1D3166CEF"]
+			description: [
+				"{chapter.1.quest.13.description.1}"
+				"{image:ends_delight:item/non_hatchable_dragon_egg width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "dragonsurvival:elder_dragon_heart"
+			id: "655BC753FA5FE91B"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "171D3AB0D38A734F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 10
+					id: "3A0E2F324CF76B0C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "34654837F7E270AA"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6B638AE7613EE1BF"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.1.quest.13.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "2BFF9BD7DFA0C815"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "54C486FC9201754F"
+					item: "dragonsurvival:weak_dragon_heart"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "17AAAB0A445A511C"
+					item: "dragonsurvival:elder_dragon_heart"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.13.title}"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["655BC753FA5FE91B"]
+			description: [
+				"{chapter.1.quest.14.description.1}"
+				"{image:dragonsurvival:textures/mob_effect/predator_anti_spawn.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "dragonsurvival:star_bone"
+			id: "5052FA4A18F31466"
+			rewards: [
+				{
+					auto: "disabled"
+					count: 40
+					id: "656AFBBA33CBF7D6"
+					item: "dragonsurvival:star_bone"
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "4ADE232E2A0E71BB"
+					item: "dragonsurvival:star_heart"
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "6DDAAA391E324AB0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.1.quest.14.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "104E72912E787FF8"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "404627CF6C41427A"
+					item: "dragonsurvival:weak_dragon_heart"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "52B7EA37DFB5AAB5"
+					item: "dragonsurvival:elder_dragon_heart"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.14.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FBA35A1D3166CEF"]
+			description: [
+				"{chapter.1.quest.15.description.1}"
+				"{image:create:textures/item/train_door.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "dragonsurvival:spruce_dragon_door"
+			id: "75A73B0AC3BA2278"
+			rewards: [
+				{
+					id: "5150A7ACE95027CC"
+					item: "dragonsurvival:legacy_dragon_door"
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "720CC98FFEF14DB4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "51D110F163003F4D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.1.quest.15.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					disable_toast: true
+					id: "738F4CAB57B82A98"
+					item: "dragonsurvival:oak_dragon_door"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "1E6042727FEE3279"
+					item: "dragonsurvival:oak_small_dragon_door"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.15.title}"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75A73B0AC3BA2278"]
+			description: [
+				"{chapter.1.quest.16.description.1}"
+				"{image:dragonsurvival:textures/block/cave_dragon_pressure_plate.png width:100 height:100 align:1}"
+			]
+			hide: false
+			icon: "dragonsurvival:sleeper_small_dragon_door"
+			id: "1FDFE1ADC030BD74"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "5A8C85E96F5CF721"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{chapter.1.quest.16.subtitle}"
+			tasks: [
+				{
+					disable_toast: true
+					id: "7507F070D45438E7"
+					item: "dragonsurvival:dragon_pressure_plate"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "26BE40CB2E7CBD7C"
+					item: "dragonsurvival:human_pressure_plate"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.16.title}"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3FBA35A1D3166CEF"]
+			description: [
+				"{chapter.1.quest.17.description.1}"
+				"{image:minecraft:textures/item/raw_gold.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "create:golden_sheet"
+			id: "0E9FE1D2D99CE232"
+			rewards: [{
+				count: 10
+				id: "4A2CF79B01A18E8C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{chapter.1.quest.17.subtitle}"
+			tasks: [
+				{
+					disable_toast: true
+					id: "255E9B4CDACCEAEC"
+					item: "dragonsurvival:treasure_copper"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "0E15AF0985989EB9"
+					item: "dragonsurvival:treasure_gold"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "2597A6024AB12A77"
+					item: "dragonsurvival:treasure_iron"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.17.title}"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E9FE1D2D99CE232"]
+			description: [
+				"{chapter.1.quest.18.description.1}"
+				"{image:minecraft:textures/item/netherite_hoe.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: true
+			icon: "minecraft:netherite_scrap"
+			id: "1F187F83AE92C4A4"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "17615E206C6B5103"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			subtitle: "{chapter.1.quest.18.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "3E6273376612762A"
+				item: "dragonsurvival:treasure_debris"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "{chapter.1.quest.18.title}"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FBA35A1D3166CEF"]
+			description: [
+				"{chapter.1.quest.19.description.1}"
+				"{image:upgradednetherite:textures/items/gold_upgraded_netherite_helmet.png width:100 height:100 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: "dragonsurvival:broken_knight_helmet_3"
+			id: "4BC869A76234BB17"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "0875805C13C21F7E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 10
+					id: "68B35F4C2E27BF6F"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.1.quest.19.subtitle}"
+			tasks: [
+				{
+					disable_toast: true
+					id: "66048F289505EA1F"
+					item: "dragonsurvival:broken_knight_helmet_1"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3AAA5BE989EA9E3F"
+					item: "dragonsurvival:broken_knight_helmet_2"
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "432A9227EED0ABC2"
+					item: "dragonsurvival:broken_knight_helmet_3"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.19.title}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4BC869A76234BB17"]
+			description: [
+				"{chapter.1.quest.20.description.1}"
+				"{image:dragonsurvival:textures/mob_effect/royal_chase.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "minecraft:red_candle"
+			id: "61A3E40F95AEC799"
+			rewards: [
+				{
+					id: "6DC618AF20E9DBE5"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "44062FE857C9EB54"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.1.quest.20.subtitle}"
+			tasks: [{
+				icon: "minecraft:red_candle"
+				id: "0ABCF22C55302197"
+				stat: "minecraft:raid_win"
+				title: "{chapter.1.quest.20.task.1.title}"
+				type: "stat"
+				value: 1
+			}]
+			title: "{chapter.1.quest.20.title}"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E145E32351E8DB4"]
+			description: [
+				"{chapter.1.quest.21.description.1}"
+				"{image:dragonsurvival:textures/gui/growth/growth_sea_3.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "dragonsurvival:dragon_beacon_peace"
+			id: "57197D4C2857ECDA"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "791EE59CCA13D47B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			subtitle: "{chapter.1.quest.21.subtitle}"
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "40E49FD2A539EBA2"
+				item: "dragonsurvival:dragon_beacon_peace"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "{chapter.1.quest.21.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E145E32351E8DB4"]
+			description: [
+				"{chapter.1.quest.22.description.1}"
+				"{image:dragonsurvival:textures/gui/growth/growth_forest_3.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "dragonsurvival:dragon_beacon_magic"
+			id: "0283889A27484BF2"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "10646846BA5197CC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			subtitle: "{chapter.1.quest.22.subtitle}"
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "326880416375DE95"
+				item: "dragonsurvival:dragon_beacon_magic"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "{chapter.1.quest.22.title}"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E145E32351E8DB4"]
+			description: [
+				"{chapter.1.quest.23.description.1}"
+				"{image:dragonsurvival:textures/gui/growth/growth_cave_3.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "dragonsurvival:dragon_beacon_fire"
+			id: "4715FA66216039D5"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "7584D34A6B169DD5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			subtitle: "{chapter.1.quest.23.subtitle}"
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "54BB03628FECDFAB"
+				item: "dragonsurvival:dragon_beacon_fire"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "{chapter.1.quest.23.title}"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57294D01A1147F2E"]
+			description: [
+				"{image:dragonsurvival:textures/skills/unclaimed/0_amphibian.png width:150 height:150 align:1}"
+				"{chapter.1.quest.24.description.1}"
+			]
+			hide: true
+			id: "1BC39D2445264D26"
+			rewards: [{
+				id: "5FD5E34D9627A7E1"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "{chapter.1.quest.24.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 768L
+				id: "525E601DBE8FBEFE"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.24.title}"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BC39D2445264D26"]
+			description: [
+				"{image:dragonsurvival:textures/skills/unclaimed/1_poisonous_spike.png width:150 height:150 align:1}"
+				"{chapter.1.quest.25.description.1}"
+			]
+			hide: true
+			id: "40B8F333D0242B45"
+			rewards: [{
+				id: "1DFA65C02F8468D5"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "{chapter.1.quest.25.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 896L
+				id: "2D3865E8D8F66A31"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.25.title}"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["40B8F333D0242B45"]
+			description: [
+				"{image:dragonsurvival:textures/skills/unclaimed/1_hot_blood.png width:150 height:150 align:1}"
+				"{chapter.1.quest.26.description.1}"
+			]
+			hide: true
+			id: "76706A58952DAC73"
+			rewards: [{
+				id: "22507D8B386DF1BB"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			subtitle: "{chapter.1.quest.26.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "25C2CB321F5AE7AF"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.26.title}"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76706A58952DAC73"]
+			description: [
+				"{image:dragonsurvival:textures/skills/unclaimed/0_poisonous_spike.png width:150 height:150 align:1}"
+				"{chapter.1.quest.27.description.1}"
+			]
+			hide: true
+			id: "4FCBB56B2E3C73A7"
+			rewards: [{
+				id: "222E7AAEB2ED0C96"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			subtitle: "{chapter.1.quest.27.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 1152L
+				id: "6906A3F272749E0D"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.27.title}"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60C1A05CCE1079E3"]
+			description: [
+				"{image:dragonsurvival:textures/skills/unclaimed/0_hot_blood.png width:150 height:150 align:1}"
+				"{chapter.1.quest.28.description.1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			id: "57294D01A1147F2E"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "1B8937C3DA149608"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "{chapter.1.quest.28.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 640L
+				id: "7AB72767BFF51C6C"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.28.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4FCBB56B2E3C73A7"]
+			description: [
+				"{image:dragonsurvival:textures/skills/unclaimed/1_amphibian.png width:150 height:150 align:1}"
+				"{chapter.1.quest.29.description.1}"
+			]
+			hide: true
+			id: "5BC58C85B6CDD400"
+			rewards: [{
+				id: "6417F1D9E61D8541"
+				type: "xp_levels"
+				xp_levels: 35
+			}]
+			subtitle: "{chapter.1.quest.29.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 1280L
+				id: "49DCF2FC63812CA3"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.29.title}"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5BC58C85B6CDD400"]
+			description: ["{chapter.1.quest.30.description.1}"]
+			hide: true
+			id: "612F62BF9539FFDE"
+			rewards: [{
+				id: "6ABF248E043E59AC"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			subtitle: "{chapter.1.quest.30.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 1408L
+				id: "1CB6293C7E3DD332"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.30.title}"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["612F62BF9539FFDE"]
+			description: [
+				"{image:dragonsurvival:textures/skills/unclaimed/3_poisonous_spike.png width:150 height:150 align:1}"
+				"{chapter.1.quest.31.description.1}"
+			]
+			hide: true
+			id: "3D13651490B7CE89"
+			rewards: [{
+				id: "5358C3F0C59818A7"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			subtitle: "{chapter.1.quest.31.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 1536L
+				id: "44CB940C3BE5CF08"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.31.title}"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D13651490B7CE89"]
+			description: ["{chapter.1.quest.32.description.1}"]
+			hide: true
+			id: "794E314A875440B6"
+			rewards: [{
+				id: "78A678BC28238095"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			subtitle: "{chapter.1.quest.32.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 1664L
+				id: "640366E6B4AD141F"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.32.title}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["794E314A875440B6"]
+			description: [
+				"{image:dragonsurvival:textures/skills/unclaimed/2_spike.png width:150 height:150 align:1}"
+				"{chapter.1.quest.33.description.1}"
+			]
+			hide: true
+			id: "2BA19ED62B4F5005"
+			rewards: [{
+				id: "75E0E98F9BDA30D5"
+				type: "xp_levels"
+				xp_levels: 45
+			}]
+			subtitle: "{chapter.1.quest.33.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 1792L
+				id: "1C4C59064D049D07"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.33.title}"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2BA19ED62B4F5005"]
+			description: [
+				"{image:dragonsurvival:textures/skills/unclaimed/4_poisonous_spike.png.png width:150 height:150 align:1}"
+				"{chapter.1.quest.34.description.1}"
+			]
+			hide: true
+			id: "0BCD9535025F319F"
+			rewards: [{
+				id: "726EFE915B3E5886"
+				type: "xp_levels"
+				xp_levels: 45
+			}]
+			subtitle: "{chapter.1.quest.34.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 1920L
+				id: "5295524107D73D40"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.34.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BCD9535025F319F"]
+			description: [
+				"{image:dragonsurvival:textures/skills/unclaimed/2_invisibility.png width:150 height:150 align:1}"
+				"{chapter.1.quest.35.description.1}"
+			]
+			hide: true
+			id: "6AF4556F40120B55"
+			rewards: [{
+				id: "6BE845E88AD6661C"
+				type: "xp_levels"
+				xp_levels: 45
+			}]
+			subtitle: "{chapter.1.quest.35.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "39D3142BBF1612D2"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.35.title}"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6AF4556F40120B55"]
+			description: ["{chapter.1.quest.36.description.1}"]
+			hide: true
+			id: "2C5A35D8E5F6B79A"
+			rewards: [{
+				id: "549759CCFDD75DF4"
+				type: "xp_levels"
+				xp_levels: 45
+			}]
+			subtitle: "{chapter.1.quest.36.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 2176L
+				id: "1370206FB6E7EA2B"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.36.title}"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25CFDD4DA627EAD1"]
+			hide: true
+			id: "3F5FC434BC76F924"
+			rewards: [{
+				id: "0FFA08B5C678C8CA"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			subtitle: "{chapter.1.quest.37.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 200L
+				id: "2093773F84502387"
+				item: "dragonsurvival:heart_element"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.37.title}"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F5FC434BC76F924"]
+			hide: true
+			id: "7A8F887E8BB9A57F"
+			rewards: [{
+				id: "1D15F34956BC4D35"
+				type: "xp_levels"
+				xp_levels: 150
+			}]
+			subtitle: "{chapter.1.quest.38.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 200L
+				id: "70EF441E35416C16"
+				item: "dragonsurvival:weak_dragon_heart"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.38.title}"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7A8F887E8BB9A57F"]
+			hide: true
+			id: "2BBC48482795CD67"
+			rewards: [{
+				id: "1C23BEE549E9282D"
+				type: "xp_levels"
+				xp_levels: 250
+			}]
+			subtitle: "{chapter.1.quest.39.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "4F981346ED835381"
+				item: "dragonsurvival:elder_dragon_heart"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.39.title}"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C5A35D8E5F6B79A"]
+			description: ["{chapter.1.quest.40.description.1}"]
+			id: "7AF1AB3C2DB3C108"
+			rewards: [{
+				id: "660BE15E5CE86FD2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "{chapter.1.quest.40.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0D211AEB7DABB97C"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.40.title}"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["45D63D7D96475157"]
+			description: ["{chapter.1.quest.41.description.1}"]
+			id: "432850A0F25BD8D6"
+			rewards: [{
+				id: "1F1FAFCD4D7EA517"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			subtitle: "{chapter.1.quest.41.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 2304L
+				id: "22CF19A9C8E6B5EC"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.41.title}"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["432850A0F25BD8D6"]
+			description: ["{chapter.1.quest.42.description.1}"]
+			id: "66E665210AD69C55"
+			rewards: [{
+				id: "6E4BE12B00217319"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			subtitle: "{chapter.1.quest.42.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 2304L
+				id: "4177587A44AC311A"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.42.title}"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["66E665210AD69C55"]
+			description: ["{chapter.1.quest.43.description.1}"]
+			hide: true
+			hide_text_until_complete: true
+			id: "25CFDD4DA627EAD1"
+			rewards: [{
+				id: "7F5CDC420E5EE490"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			subtitle: "{chapter.1.quest.43.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "046FBF46F0CDCE87"
+				item: "dragonsurvival:heart_element"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.43.title}"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7AF1AB3C2DB3C108"]
+			description: ["{chapter.1.quest.44.description.1}"]
+			id: "45D63D7D96475157"
+			rewards: [{
+				id: "65D6ACF21CCB31E7"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			subtitle: "{chapter.1.quest.44.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 2304L
+				id: "5D727D36333D1FD5"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.44.title}"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{chapter.1.quest.45.description.1}"
+				"{image:minecraft:textures/item/experience_bottle.png width:100 height:100 align:1}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "60C1A05CCE1079E3"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "54B2D75A25D3F930"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "{chapter.1.quest.45.subtitle}"
+			tasks: [{
+				id: "5CB3946394291A54"
+				title: "{chapter.1.quest.45.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.45.title}"
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	title: "{chapter.1.title}"
+}

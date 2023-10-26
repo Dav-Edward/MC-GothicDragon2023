@@ -1,0 +1,30 @@
+{
+  "editorLastVersion": "0.6.8a",
+  "playerSettings": {},
+  "globalSettings": {
+    "safetyProfile": "low"
+  },
+  "blockedList": {},
+  "advScalingSettings": true,
+  "serverSettings": {
+    "76.137.70.37": {}
+  },
+  "editorUVAreaAlpha": 0.8,
+  "editorSelectMouseButton": 0.0,
+  "titleScreenButton": true,
+  "friendSettings": {},
+  "keybinds": {},
+  "editorDragMouseButton": -1.0,
+  "editorMenuMouseButton": 1.0,
+  "editorRotateMouseButton": 2.0,
+  "editorRecentProjects": [
+    "F:\\Users\\Kitila\\Desktop\\Projects\\AsheruMCmodel\\Asheru.cpmproject",
+    "G:\\Minecraft\\Instances\\Play as Dragon Gothic Edition\\AsheruCPM.cpmproject",
+    "F:\\Users\\Kitila\\Desktop\\Projects\\AsheruMCmodel\\Kalista.cpmproject",
+    "G:\\Minecraft\\Instances\\Play as Dragon Gothic Edition\\KalistaCPM.cpmproject",
+    "G:\\Minecraft\\Instances\\Play as Dragon Gothic Edition\\KalistaCPMslim.cpmproject"
+  ],
+  "safetyProfiles": {},
+  "friendList": {},
+  "editorScale": 2.0
+}

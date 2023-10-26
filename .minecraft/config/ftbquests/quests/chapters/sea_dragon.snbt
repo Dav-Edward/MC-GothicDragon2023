@@ -1,0 +1,742 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "sea_dragon"
+	group: "330390FADA7F7F42"
+	icon: "dragonsurvival:dragon_beacon_peace"
+	id: "15847AA3E48E283C"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dragonsurvival:textures/gui/growth/growth_sea_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "dragonsurvival:textures/gui/growth/growth_sea_2.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "dragonsurvival:textures/gui/growth/growth_sea_3.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 2.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{chapter.4.quest.1.description.1}"
+				"{image:minecraft:textures/item/seagrass.png width:100 height:100 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: "minecraft:salmon"
+			id: "42E8F738BDE2F1E8"
+			rewards: [{
+				count: 5
+				id: "7F77D8B769601667"
+				item: "dragonsurvival:golden_turtle_egg"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{chapter.4.quest.1.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					disable_toast: true
+					id: "6C42ECEE9FD7AEEE"
+					item: "minecraft:salmon"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "2CA1A486D727162E"
+					item: "minecraft:cod"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "1C1596A141527E5E"
+					item: "minecraft:kelp"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "3EEDD37FEE395A55"
+					item: "minecraft:pufferfish"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{chapter.4.quest.1.title}"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42E8F738BDE2F1E8"]
+			description: [
+				"{chapter.4.quest.2.description.1}"
+				"{image:aquaculture:textures/item/muskellunge.png width:100 height:100 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: "aquaculture:carp"
+			id: "5D2D637A9E07C375"
+			rewards: [{
+				count: 5
+				id: "682391B5DAC2F382"
+				item: "dragonsurvival:golden_turtle_egg"
+				type: "item"
+			}]
+			subtitle: "{chapter.4.quest.2.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					disable_toast: true
+					id: "255C3B901ADD5815"
+					item: "aquaculture:bluegill"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "562025FE4E6E3E18"
+					item: "aquaculture:gar"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "18FC94CB1A754443"
+					item: "aquaculture:perch"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "7C8D4CD72EA4A2C3"
+					item: "aquaculture:carp"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "08B68E5555FE500D"
+					item: {
+						Count: 1b
+						id: "aquaculture:minnow"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "0C1BEBE6AC6F42CF"
+					item: "aquaculture:atlantic_cod"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "2C16FFA207A811EB"
+					item: "aquaculture:atlantic_herring"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "7F71DB7EDB80AED7"
+					item: "aquaculture:pollock"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "3DF1F04E42451471"
+					item: "farmersdelight:cod_slice"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "28DCCB281CF722B2"
+					item: "farmersdelight:salmon_slice"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "308321888B073BE4"
+					item: "aquaculture:fish_fillet_raw"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{chapter.4.quest.2.title}"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D2D637A9E07C375"]
+			description: [
+				"{chapter.4.quest.3.description.1}"
+				"{image:aquaculture:textures/item/catfish.png width:100 height:100 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: "dragonsurvival:sea_dragon_treat"
+			id: "60857CDAC75C3CAB"
+			rewards: [{
+				count: 10
+				id: "0AF9AA08D12A7F82"
+				item: "dragonsurvival:golden_turtle_egg"
+				type: "item"
+			}]
+			subtitle: "{chapter.4.quest.3.subtitle}"
+			tasks: [{
+				consume_items: false
+				id: "4CC2F3FEAD54C57D"
+				item: "dragonsurvival:sea_dragon_treat"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "{chapter.4.quest.3.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{chapter.4.quest.4.description.1}"
+				"{image:aquaculture:textures/item/fish_fillet_raw.png width:100 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "farmersdelight:iron_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "752E3F7D47AA9A07"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "2A799224BEA5177B"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			subtitle: "{chapter.4.quest.4.subtitle}"
+			tasks: [
+				{
+					disable_toast: true
+					id: "18B98511C2A5FFAA"
+					item: {
+						Count: 1b
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "4AE01A5D0C7BC774"
+					item: "farmersdelight:cutting_board"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1424DDA7E06D3A97"
+					item: {
+						Count: 1b
+						id: "aquaculture:iron_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{chapter.4.quest.4.title}"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{chapter.4.quest.5.description.1}"
+				"{image:minecraft:textures/block/brain_coral.png width:100 height:100 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: "minecraft:sand"
+			id: "507C0FCCAADF3538"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "4DE3BDC76DCC781D"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			subtitle: "{chapter.4.quest.5.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					icon: "minecraft:sand"
+					id: "246C8DDD771B77C4"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					icon: "minecraft:red_sand"
+					id: "3C06F46FB10E92D0"
+					item: "minecraft:red_sand"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					icon: "minecraft:red_sandstone"
+					id: "5005E05C40F5E02F"
+					item: "minecraft:red_sandstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					icon: "minecraft:sandstone"
+					id: "196EFA52D2B06CC8"
+					item: "minecraft:sandstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					icon: "minecraft:water_bucket"
+					id: "6E6EF9116C43BD60"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "{chapter.4.quest.5.title}"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{chapter.4.quest.6.description.1}"
+				""
+				"{image:supplementaries:textures/blocks/raked_gravel_curved.png width:100 height:100 align:1}"
+			]
+			icon: "minecraft:gravel"
+			id: "76F61F26D862CCE0"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "4389ECC3CB6F3713"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "square"
+			subtitle: "{chapter.4.quest.6.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "321AA7D077DE579A"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			title: "{chapter.4.quest.6.title}"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{chapter.4.quest.7.description.1}"
+				"{image:aquaculture:textures/item/neptunium_shovel.png width:100 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:golden_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C29E5D57DEA0289"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "3E6B9AD39C1FB77C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{chapter.4.quest.7.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "2EE265099912FA2D"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "751C2A852204AC0E"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{chapter.4.quest.7.title}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{chapter.4.quest.8.description.1}"
+				"{image:nebs:items/water_protection width:50 height:50 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: "minecraft:water_bucket"
+			id: "5FAE86419240CF80"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "38C8808B92C92BEB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "2AA391C043B764C7"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.4.quest.8.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "7A39EC99D2DAAD0C"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					id: "58213E7D90CB8AF9"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "295CF006874C83D7"
+					item: "minecraft:snow"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5F51F6C302F708E1"
+					item: "dragonsurvival:frozen_raw_fish"
+					type: "item"
+				}
+			]
+			title: "{chapter.4.quest.8.title}"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{chapter.4.quest.9.description.1}"
+				"{image:dragonsurvival:textures/block/sea_dragon_pressure_plate.png width:100 height:100 align:1}"
+			]
+			icon: "dragonsurvival:sea_dragon_door"
+			id: "5AA6E8F6C70A5108"
+			rewards: [{
+				count: 2
+				id: "35FE365BBF1B03CB"
+				item: "minecraft:lapis_ore"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{chapter.4.quest.9.subtitle}"
+			tasks: [
+				{
+					disable_toast: true
+					id: "6D3AA93385ECC7F6"
+					item: "dragonsurvival:sea_dragon_door"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "519F37EBA7818C1C"
+					item: "dragonsurvival:sea_small_dragon_door"
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "4B1E16584E62F01F"
+					item: "dragonsurvival:sea_dragon_pressure_plate"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{chapter.4.quest.9.title}"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{chapter.4.quest.10.description.1}"
+				"{image:dragonsurvival:textures/mob_effect/charged.png width:100 height:100 align:1}"
+			]
+			icon: "dragonsurvival:sea_source_of_magic"
+			id: "3EFFA8C07174C9B9"
+			rewards: [
+				{
+					count: 30
+					id: "7E42B1663E0D0BC9"
+					item: "dragonsurvival:sea_dragon_treat"
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "307028B33369D0C7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "2D5298A5FDE3D4E9"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.4.quest.10.subtitle}"
+			tasks: [{
+				disable_toast: true
+				id: "3FBA25511AC9E360"
+				item: "dragonsurvival:sea_source_of_magic"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "{chapter.4.quest.10.title}"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60857CDAC75C3CAB"]
+			description: [
+				"{chapter.4.quest.11.description.1}"
+				"{image:quark:item/crab_leg width:100 height:100 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: "dragonsurvival:golden_turtle_egg"
+			id: "041451AC68321FD2"
+			rewards: [{
+				count: 10
+				id: "1AE63A4324DA240A"
+				item: "dragonsurvival:golden_turtle_egg"
+				type: "item"
+			}]
+			subtitle: "{chapter.4.quest.11.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					disable_toast: true
+					id: "03946D17F7133563"
+					item: "dragonsurvival:frozen_raw_fish"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "0A698985038049D9"
+					item: "dragonsurvival:seasoned_fish"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "000B802AA811E9BC"
+					item: "dragonsurvival:golden_coral_pufferfish"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "16D866C7BE652FDB"
+					item: "netherdepthsupgrade:searing_cod"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "17964FDC9D0576DF"
+					item: "netherdepthsupgrade:soulsucker"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "2CB07AF377A9A72C"
+					item: "netherdepthsupgrade:lava_pufferfish"
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "578A1953EC59E3E8"
+					item: "netherdepthsupgrade:obsidianfish"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "39966B6A20D4FD55"
+					item: "netherdepthsupgrade:glowdine"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{chapter.4.quest.11.title}"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{chapter.4.quest.12.description.1}"
+				"{image:blackaures_paintings:textures/p17.png width:200 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "19C6E541BE681538"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "3963E8FDA74EE2F9"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "{chapter.4.quest.12.subtitle}"
+			tasks: [{
+				id: "25318BB79821D32C"
+				title: "{chapter.4.quest.12.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.4.quest.12.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{chapter.4.quest.13.description.1}"
+				"{image:minecraft:textures/block/dead_fire_coral.png width:100 height:100 align:1}"
+			]
+			icon: "minecraft:guardian_spawn_egg"
+			id: "42D4E0B18F03C509"
+			rewards: [{
+				count: 5
+				id: "5D44EF131B603E7B"
+				item: "dragonsurvival:weak_dragon_heart"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{chapter.4.quest.13.subtitle}"
+			tasks: [
+				{
+					entity: "minecraft:guardian"
+					id: "3AF9632B6AA24225"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "minecraft:elder_guardian"
+					id: "05167F63B8D4CE22"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{chapter.4.quest.13.title}"
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+	title: "{chapter.4.title}"
+}

@@ -1,0 +1,361 @@
+[
+  {
+    "dimension": "minecraft:the_nether",
+    "healthmultiply": 1.5,
+    "damagemultiply": 1.5
+  },
+  {
+    "dimension": "minecraft:the_end",
+    "healthmultiply": 2,
+    "damagemultiply": 2
+  },
+  {
+    "mob": ["minecraft:zombie"],
+    "dimension": "minecraft:overworld",
+    "minheight": 60,
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:stray"],
+    "dimension": "minecraft:overworld",
+    "minheight": 1,
+    "result": "deny"
+  },
+  {
+    "mod": "rottencreatures",
+    "random": 0.5,
+    "result": "deny"
+  },
+  {
+    "mob": ["savage_and_ravage:skeleton_villager"],
+    "dimension": "minecraft:overworld",
+    "minheight": 1,
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:enderman"],
+    "dimension": "minecraft:overworld",
+    "minheight": 30,
+    "result": "deny"
+  },
+  {
+    "mod": ["orcz"],
+    "maxheight": 60,
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:zombie"],
+    "dimension": "minecraft:overworld",
+    "maxheight": 1,
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:spider"],
+    "dimension": "minecraft:overworld",
+    "minheight": 60,
+    "result": "deny"
+  },  
+  {
+    "mob": ["minecraft:creeper"],
+    "dimension": "minecraft:overworld",
+    "minheight": 60,
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:skeleton"],
+    "dimension": "minecraft:overworld",
+    "minheight": 1,
+    "result": "deny"
+  },  
+    {
+    "mob": ["minecraft:phantom"],
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },  
+  {
+    "mod": "zombiemobs",
+    "dimension": "minecraft:overworld",
+    "minheight": 30,
+    "result": "deny"
+  },
+  {
+    "mod": "zombiemobs",
+    "dimension": "minecraft:overworld",
+    "maxheight": -40,
+    "result": "deny"
+  },
+  {
+    "mod": "mutantmonsters",
+    "dimension": "minecraft:overworld",
+    "minheight": 1,
+    "result": "deny"
+  },
+  {
+    "mod": "mutantmonsters",
+    "dimension": "minecraft:overworld",
+    "incontrol": false,
+    "result": "deny"
+  },
+  {
+    "mod": "orcz",
+    "phase": "no_orcs",
+    "result": "deny"
+  },
+  {
+    "mob": "mutantmonsters:mutant_skeleton",
+    "dimension": "minecraft:the_nether",
+    "dimension": "minecraft:the_end",
+    "result": "allow"
+  },
+  {
+    "mod": "mutantmonsters",
+    "mincount": {  
+	"amount": 1,
+    "mod": "mutantmonsters",
+    "perplayer": true},
+    "result": "deny"
+  },
+  {
+    "mod": "mutantmonsters",
+    "mincount": {  
+	"amount": 1,
+    "mod": "mutantmonsters",
+    "perchunk": true},
+    "result": "deny"
+  },
+  {
+    "mod": "mutantmonsters",
+    "random": 0.75,
+    "result": "deny"
+  },
+  {
+	"mod": "zombiemobs",
+    "dimension": "minecraft:overworld",
+	"mincount": {
+      "amount": 3,
+	  "mod": "zombiemobs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": ["graveyard"],
+    "dimension": "minecraft:overworld",
+    "minheight": 60,
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:sheep", "minecraft:chicken", "minecraft:cow", "minecraft:pig", "minecraft:wolf", "minecraft:horse"],
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:sheep", "minecraft:chicken", "minecraft:cow", "minecraft:pig", "minecraft:horse"],
+    "dimension": "minecraft:overworld",
+	"maxcount": {
+      "amount": 3,
+      "perchunk": true
+    },
+	"biome": "minecraft:plains",
+    "result": "allow"
+  },
+  {
+	"mod": "zombiemobs",
+    "dimension": "minecraft:overworld",
+	"mincount": {
+      "amount": 1,
+	  "mod": "zombiemobs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_end",
+	"mod": "minecraft",
+	"mincount": {
+      "amount": 2,
+	  "mod": "minecraft",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": ["kobolds:kobold_zombie"],
+    "dimension": "minecraft:overworld",
+    "mincount": {  
+	"amount": 1,
+    "mob": ["kobolds:kobold_zombie"],
+    "perplayer": true  },
+    "result": "deny"
+  },
+  {
+    "mob": ["upgrade_aquatic:thrasher"],
+    "dimension": "minecraft:overworld",
+    "mincount": {  
+	"amount": 1,
+    "mob": ["upgrade_aquatic:thrasher"],
+    "perplayer": true  },
+    "result": "deny"
+  },
+  {
+    "mob": ["upgrade_aquatic:thrasher"],
+    "dimension": "minecraft:overworld",
+	"random": 0.75,
+    "result": "deny"
+  },
+  {
+    "mob": ["upgrade_aquatic:thrasher"],
+    "dimension": "minecraft:overworld",
+	"healthmultiply": 0.5,
+    "damagemultiply": 0.5
+  },
+  {
+    "mob": ["minecraft:cod", "minecraft:salmon"],
+    "dimension": "minecraft:overworld",
+    "mincount": {  
+	"amount": 8,
+    "mob": ["minecraft:cod", "minecraft:salmon"],
+    "perchunk": true
+	},
+    "result": "deny"
+  },
+  {
+	"mod": ["aquaculture"],
+    "dimension": "minecraft:overworld",
+    "mincount": {
+      "amount": 3,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:drowned"],
+    "dimension": "minecraft:overworld",
+    "mincount": {  "amount": 5,
+    "mob": ["minecraft:drowned"],
+    "perchunk": true  },
+    "result": "deny"
+  },
+  {
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+    "mincount": {  "amount": 8,
+    "hostile": true,
+    "perchunk": true  },
+    "result": "deny"
+  },
+    {
+    "mod": ["gothic"],
+	"mob": ["gothic:scavenger", "gothic:molerat", "gothic:gothic_wolf", "gothic:ice_wolf", "gothic:warg", "gothic:snapper", "gothic:lurker", "gothic:razor", "gothic:bloodfly", "gothic:bloodfly_hornet", "gothic:cave_molerat", "gothic:molerat_young", "gothic:shadowbeast"],
+	"healthmultiply": 0.25,
+    "damagemultiply": 0.25,
+	"minheight": 50,
+    "maxcount": {  
+		"amount": 1,
+		"mod": ["gothic"],
+		"perchunk": true},
+    "result": "allow"
+  },
+  {
+    "mod": ["gothic"],
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mob": "gothic:shadowbeast",
+    "random": 0.5,
+    "result": "deny"
+  },
+  {
+    "mob": ["gothic:shadowbeast"],
+    "dimension": "minecraft:overworld",
+    "mincount": {  
+	"amount": 1,
+    "mob": ["gothic:shadowbeast"],
+    "perplayer": true},
+    "result": "deny"
+  },
+  {
+    "mod": ["gothic"],
+    "dimension": "minecraft:overworld",
+	"structure": "minecraft:village",
+    "result": "deny"
+  },
+  {
+    "mob": ["gothic:shadowbeast"],
+    "dimension": "minecraft:overworld",
+    "mincount": {  
+	"amount": 1,
+    "mob": ["gothic:shadowbeast"],
+    "perchunk": true},
+    "result": "deny"
+  },
+  {
+    "mob": ["kobolds:kobold_zombie"],
+    "dimension": "minecraft:overworld",
+    "mincount": {  
+	"amount": 1,
+    "mob": ["kobolds:kobold_zombie"],
+    "perplayer": true  },
+    "result": "deny"
+  },
+  {
+    "mob": "gothic:dragon_snapper",
+    "random": 0.75,
+    "result": "deny"
+  },
+  {
+    "mob": ["gothic:dragon_snapper"],
+    "dimension": "minecraft:overworld",
+    "mincount": {  
+	"amount": 1,
+    "mob": ["gothic:dragon_snapper"],
+    "perplayer": true},
+    "result": "deny"
+  },
+  {
+    "mod": ["quark"],
+    "dimension": "minecraft:overworld",
+    "mincount": {  
+	"amount": 1,
+    "mod": ["quark"],
+    "perchunk": true},
+    "result": "deny"
+  },
+  {
+    "mob": ["gothic:dragon_snapper"],
+    "dimension": "minecraft:overworld",
+    "mincount": {  
+	"amount": 1,
+    "mob": ["gothic:dragon_snapper"],
+    "perchunk": true},
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+	"mod": "zombiemobs",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:glow_squid"],
+    "dimension": "minecraft:overworld",
+    "mincount": {  
+	 "amount": 2,
+     "mob": ["minecraft:glow_squid"],
+     "perchunk": true  },
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:bat"],
+    "dimension": "minecraft:overworld",
+    "mincount": {  
+	 "amount": 1,
+     "mob": ["minecraft:bat"],
+     "perplayer": true  },
+    "result": "deny"
+  }
+]

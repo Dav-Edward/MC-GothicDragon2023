@@ -1,0 +1,8 @@
+[
+  {
+    "name": "no_orcs",
+    "conditions": {
+        "mindaycount": 60
+    }
+  }
+]

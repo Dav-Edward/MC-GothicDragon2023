@@ -1,0 +1,657 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "cave_dragon"
+	group: "330390FADA7F7F42"
+	icon: "dragonsurvival:dragon_beacon_fire"
+	id: "119A230078C159A2"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dragonsurvival:textures/gui/growth/growth_cave_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "dragonsurvival:textures/gui/growth/growth_cave_2.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "dragonsurvival:textures/gui/growth/growth_cave_3.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 2.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{chapter.2.quest.1.description.1}"
+				""
+				"{image:minecraft:textures/block/deepslate_coal_ore.png width:100 height:100 align:1}"
+			]
+			icon: "minecraft:coal"
+			id: "46E664821B373121"
+			rewards: [{
+				count: 5
+				id: "2A7917DBB918EEB2"
+				item: "dragonsurvival:quartz_explosive_copper"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{chapter.2.quest.1.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					disable_toast: true
+					icon: "minecraft:coal"
+					id: "5F3691FC180689DA"
+					item: "minecraft:coal"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "4ACDC02CB463D05E"
+					item: "minecraft:charcoal"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "37D29814116AC571"
+					item: "dragonsurvival:charged_coal"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.1.title}"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46E664821B373121"]
+			description: [
+				"{chapter.2.quest.2.description.1}"
+				"{image:minecraft:textures/block/furnace_front_on.png width:100 height:100 align:1}"
+			]
+			icon: "dragonsurvival:charred_meat"
+			id: "63B968286B32F328"
+			rewards: [{
+				count: 30
+				id: "7A2017EBF28A0A50"
+				item: "dragonsurvival:quartz_explosive_copper"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.2.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					disable_toast: true
+					id: "33FB138E9F38C920"
+					item: "dragonsurvival:charred_meat"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "68B50944E7805E9B"
+					item: "dragonsurvival:charred_vegetable"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "5E13F595CE3E40F5"
+					item: "dragonsurvival:charred_mushroom"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "73A6E15B378F5D25"
+					item: "dragonsurvival:charred_seafood"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "5FCB35304CD8EB8C"
+					item: "dragonsurvival:charged_soup"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "417C403B75B7E6C7"
+					item: "netherdepthsupgrade:magmacubefish"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "3A543C5F2CC49406"
+					item: "rottencreatures:magma_rotten_flesh"
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.2.title}"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63B968286B32F328"]
+			description: [
+				"{chapter.2.quest.3.description.1}"
+				"{image:regions_unexplored:block/redstone_bulb width:100 height:100 align:1}"
+			]
+			icon: "dragonsurvival:cave_dragon_treat"
+			id: "06536F5B177E57F1"
+			rewards: [{
+				count: 10
+				id: "099DE5BA9C2996B4"
+				item: "dragonsurvival:quartz_explosive_copper"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.3.subtitle}"
+			tasks: [{
+				consume_items: false
+				id: "4805915A7EA994DA"
+				item: "dragonsurvival:cave_dragon_treat"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "{chapter.2.quest.3.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{chapter.2.quest.4.description.1}"
+				"{image:minecraft:block/campfire_log_lit width:100 height:100 align:1}"
+			]
+			icon: "minecraft:campfire"
+			id: "1E0880DC2D3EC723"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "4F338668C57A34A5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "7140BC125790438F"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.2.quest.4.subtitle}"
+			tasks: [
+				{
+					block: "farmersdelight:skillet"
+					block_type: 0
+					disable_toast: true
+					icon: {
+						Count: 1b
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4349FFA3AE7B303E"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "minecraft:smoker"
+					block_type: 0
+					disable_toast: true
+					icon: "minecraft:smoker"
+					id: "71554CD0E7AE7926"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "minecraft:campfire"
+					block_type: 0
+					disable_toast: true
+					icon: "minecraft:campfire"
+					id: "7D7EB1466D44221E"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "{chapter.2.quest.4.title}"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{chapter.2.quest.5.description.1}"
+				"{image:quark:textures/block/chiseled_diorite_bricks.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "minecraft:cobbled_deepslate"
+			id: "47C247DC4E68F53E"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "760155898543A1FA"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			subtitle: "{chapter.2.quest.5.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "0CAEEAB9BB94BDF8"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4EE6442246DCA624"
+					item: "minecraft:granite"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "77289AEBB666D395"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "494069A4814394C0"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "717650AB28FBCCC7"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0EABFE7B674372DA"
+					item: "minecraft:sandstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "147AFF7113F6AEB9"
+					item: "minecraft:cobbled_deepslate"
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.5.title}"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{chapter.2.quest.6.description.1}"
+				""
+				"{image:stoneworks:block/basalt_shingles width:50 height:50 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "minecraft:cobblestone"
+			id: "4490C21A3D446B15"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "6D808D7693E37139"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "square"
+			subtitle: "{chapter.2.quest.6.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "11B4346FCE265F7D"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.6.title}"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{chapter.2.quest.7.description.1}"
+				""
+				"{image:quark:textures/block/gold_bars.png width:100 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:golden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D3C35A2E85E576E"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "4CAD0F92CC621530"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{chapter.2.quest.7.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "4EFA8459F51BA13A"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "41EA080294E6E35F"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.7.title}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{chapter.2.quest.8.description.1}"
+				""
+				"{image:unusualend:textures/mob_effect/heaviness.png width:100 height:100 align:1}"
+			]
+			hide: false
+			hide_text_until_complete: false
+			icon: "minecraft:magma_block"
+			id: "468BA2CB88B4C9B5"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "0A5CFF707027303B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "6B1AB217EFB356A3"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.2.quest.8.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "1DD909C58D19269B"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "1E80D8A61AEA07E9"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.8.title}"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{chapter.2.quest.9.description.1}"
+				"{image:minecraft:textures/block/redstone_torch.png width:100 height:100 align:1}"
+			]
+			icon: "dragonsurvival:cave_dragon_door"
+			id: "7C540FECFADEB01F"
+			rewards: [{
+				count: 2
+				id: "3306FCD1957A8D65"
+				item: "minecraft:nether_gold_ore"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{chapter.2.quest.9.subtitle}"
+			tasks: [
+				{
+					disable_toast: true
+					id: "63C92B83740E24D1"
+					item: "dragonsurvival:cave_dragon_door"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0B6012D1859E1D34"
+					item: "dragonsurvival:cave_small_dragon_door"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "3FDBD156EE889321"
+					item: "dragonsurvival:cave_dragon_pressure_plate"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.9.title}"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{chapter.2.quest.10.description.1}"
+				"{image:dragonsurvival:textures/skills/sea/sea_magic_8.png width:100 height:100 align:1}"
+			]
+			icon: "dragonsurvival:cave_source_of_magic"
+			id: "2A33DF8CB169D6DC"
+			rewards: [
+				{
+					count: 30
+					id: "629F06EE2BB41B9F"
+					item: "dragonsurvival:cave_dragon_treat"
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "46340E74B9ED324A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "180B8B9617CEDCE2"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.2.quest.10.subtitle}"
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "43CD38AF4F0BA273"
+				item: "dragonsurvival:cave_source_of_magic"
+				title: "{chapter.2.quest.10.task.1.title}"
+				type: "item"
+			}]
+			title: "{chapter.2.quest.10.title}"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["06536F5B177E57F1"]
+			description: [
+				"{chapter.2.quest.11.description.1}"
+				"{image:minecraft:textures/mob_effect/fire_resistance.png width:100 height:100 align:1}"
+			]
+			icon: "dragonsurvival:quartz_explosive_copper"
+			id: "672FA9EBA91A60B1"
+			rewards: [{
+				count: 10
+				id: "0A86B2F2A8FFB677"
+				item: "dragonsurvival:quartz_explosive_copper"
+				type: "item"
+			}]
+			subtitle: "{chapter.2.quest.11.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					disable_toast: true
+					id: "5360CDCF1DBA27D5"
+					item: "dragonsurvival:hot_dragon_rod"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "5DB379D3D20ECB97"
+					item: "dragonsurvival:explosive_copper"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "0546781B9B70A9A9"
+					item: "dragonsurvival:double_quartz"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.11.title}"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{chapter.2.quest.12.description.1}"
+				"{image:blackaures_paintings:textures/p18.png width:200 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "219D46301DB27481"
+			rewards: [{
+				auto: "disabled"
+				id: "18626415A34522BE"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "{chapter.2.quest.12.subtitle}"
+			tasks: [{
+				id: "7ED8278037DC6392"
+				title: "{chapter.2.quest.12.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.2.quest.12.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{chapter.2.quest.13.description.1}"
+				"{image:minecraft:item/magma_cream width:100 height:100 align:1}"
+			]
+			hide: false
+			icon: "minecraft:magma_cube_spawn_egg"
+			id: "119B1758DB54170A"
+			rewards: [
+				{
+					count: 3
+					id: "455E837681B2D3EC"
+					item: "dragonsurvival:weak_dragon_heart"
+					type: "item"
+				}
+				{
+					id: "20534E25585903AD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.2.quest.13.subtitle}"
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "659CBC3B3C12F2EA"
+				type: "kill"
+				value: 100L
+			}]
+			title: "{chapter.2.quest.13.title}"
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+	title: "{chapter.2.title}"
+}

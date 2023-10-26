@@ -1,0 +1,18 @@
+{
+	id: "5BD4D9DA8CA2E9D4"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "gothic:book_extract_fangs" }
+		{ item: "gothic:book_extract_claws" }
+		{ item: "gothic:book_extract_horns" }
+		{ item: "gothic:book_extract_wings" }
+		{ item: "gothic:book_extract_pelt" }
+		{ item: "gothic:book_extract_stinger" }
+		{ item: "gothic:book_extract_mandibles" }
+		{ item: "gothic:book_extract_fat" }
+		{ item: "gothic:book_extract_plates" }
+		{ item: "gothic:book_extract_hearts" }
+	]
+	title: "Random Book"
+}

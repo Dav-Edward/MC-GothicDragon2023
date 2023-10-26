@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "3452F45AD8379C9A", title: "{chapter.1.quest.28.description.19999}" }
+		{ id: "330390FADA7F7F42", title: "{chapter.1.quest.28.subtitle9999}" }
+	]
+}

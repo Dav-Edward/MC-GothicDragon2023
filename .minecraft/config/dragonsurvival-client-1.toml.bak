@@ -1,0 +1,18 @@
+
+[rendering]
+	renderAdultSkin = false
+	renderDragonClaws = true
+	renderNewbornSkin = false
+	renderYoungSkin = false
+
+[misc]
+	#When enabled it stops the blinking effect of night vision when low duration, disable if it causes rendering issues with other mods.
+	stableNightVision = true
+	#Enable client-side debug messages
+	clientDebugMessages = false
+	#Should the cast mode where you click the keybind to cast be used?
+	alternateCastMode = false
+	#The amount of undos and redos that are saved in the dragon editor.
+	#Range: 1 ~ 1000
+	editorHistory = 10
+

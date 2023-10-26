@@ -1,0 +1,3788 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "building"
+	group: "3452F45AD8379C9A"
+	icon: "minecraft:crafting_table"
+	id: "5BBFF07A3972DCBA"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 22.0d
+		hover: [ ]
+		image: "dragonsurvival:textures/skills/unclaimed/lightning_bite_1.png"
+		rotation: 0.0d
+		width: 45.925d
+		x: -0.5d
+		y: 3.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7762FC8952C0A0C7"
+				"5EC6AF8EB770756E"
+				"03C8DF4E7386A420"
+				"519D7A975DE2378D"
+				"408E992FA69ADC81"
+				"56D4E20743A89464"
+				"565D9643D76670A9"
+			]
+			description: [
+				"{image:another_furniture:item/furniture_hammer width:50 height:50 align:1}"
+				""
+				"{category.333}"
+				""
+				"{image:minecraft:block/campfire_fire width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "1F580F968B878CEE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "064EAF0FA848DEF3"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "1FF0ED20544A2BBE"
+					item: {
+						Count: 1b
+						id: "tarotcards:the_tower"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 100
+					id: "6B29EB969675AE80"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "75C7867123A35A85"
+					type: "checkmark"
+				}
+				{
+					id: "53BF682465926C37"
+					item: "workshop_for_handsome_adventurer:workstation_placer_oak"
+					type: "item"
+				}
+				{
+					id: "5D571E3C21A0DFD4"
+					item: "workshop_for_handsome_adventurer:tool_rack_single_oak"
+					type: "item"
+				}
+				{
+					id: "5A4DECC2BC0A8B99"
+					item: "workshop_for_handsome_adventurer:tool_rack_framed_oak"
+					type: "item"
+				}
+				{
+					id: "7E4CBB978F543B1F"
+					item: "workshop_for_handsome_adventurer:tool_rack_pframed_oak"
+					type: "item"
+				}
+				{
+					id: "70C7EDFCB45005EC"
+					item: "workshop_for_handsome_adventurer:tool_rack_double_oak"
+					type: "item"
+				}
+				{
+					id: "1D5FE949C2294AFD"
+					item: "workshop_for_handsome_adventurer:potion_shelf_oak"
+					type: "item"
+				}
+				{
+					id: "6B0A4ED923BF556B"
+					item: "workshop_for_handsome_adventurer:simple_table_oak"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.1.description.1111}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{image:decorative_blocks:block/torch_1 width:50 height:50 align:1}"
+				""
+				"{chapter.1.quest.1.subtitle9999}"
+				"{image:magistuarmory:item/silver_lucernhammer width:100 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "14F16843F3BB2633"
+			rewards: [
+				{
+					count: 12
+					id: "17F368819E495F9F"
+					item: "dragonsurvival:charged_coal"
+					random_bonus: 12
+					type: "item"
+				}
+				{
+					id: "2A714C6B16F823EB"
+					item: {
+						Count: 1b
+						id: "tarotcards:wheel_of_fortune"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "237FEF5C3803D7EE"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "24FAF84F51B0155D"
+					item: {
+						Count: 1b
+						id: "galosphere:silver_bomb"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "480930ED409D358F"
+					item: "galosphere:allurite_shard"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "53067F71D080D98B"
+					item: "galosphere:lumiere_shard"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.10.description.1999}"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{image:libraryferret:item/emerald_coins_jtl width:50 height:50 align:1}"
+				""
+				"{chapter.1.quest.21.title9999}"
+				""
+				"{chapter.1.quest.10.subtitle9999}"
+				""
+				"{image:minecraft:item/raw_iron width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "1789B9AFE71B7FE2"
+			rewards: [
+				{
+					id: "00A35A542F33A96F"
+					item: "easy_villagers:villager"
+					type: "item"
+				}
+				{
+					id: "6B2635FF6730C588"
+					item: {
+						Count: 1b
+						id: "tarotcards:the_chariot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 100
+					id: "1B903A03CFA73DCD"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 500L
+				id: "647DD3A2F20DF703"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "{chapter.1.quest.22.description.19999}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{image:create:textures/gui/logo.png width:50 height:50 align:1}"
+				""
+				"{chapter.1.quest.11.description.1999}"
+				""
+				"{image:create:item/rose_quartz width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "05DD56E2FCB2796D"
+			rewards: [
+				{
+					id: "49C599C7850C2146"
+					item: "create:creative_motor"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "6949F7593547D126"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					id: "41131CCFDAFBD1AA"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "31EECF69099D7053"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "7BDFC3019E67707F"
+					item: "create:sweet_roll"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "338ADC1B8F7B5C13"
+					item: "create:chocolate_glazed_berries"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "0D941CEE43DBE9C9"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "7B8B92543FAD7A3F"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.11.description.2999}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25A349A12ED9AF58"]
+			description: [
+				"{image:sophisticatedstorage:item/xp_pump_upgrade width:50 height:50 align:1}"
+				""
+				"{chapter.1.quest.11.subtitle9999}"
+				""
+				"{image:quark:item/backpack width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "556822BE785DA363"
+			rewards: [
+				{
+					command: "/thitemstages add @p storage"
+					icon: "refinedstorage:orange_creative_controller"
+					id: "59C0AC59903248BB"
+					player_command: false
+					type: "command"
+				}
+				{
+					id: "0B2757D80C796286"
+					item: "refinedstorage:creative_controller"
+					type: "item"
+				}
+				{
+					id: "0E41249FCBD97F07"
+					item: "refinedstorage:crafting_grid"
+					type: "item"
+				}
+				{
+					id: "79A2CBDD0158C3F7"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+				{
+					id: "7E9D7C40CC1BBE35"
+					item: "refinedstorage:1k_storage_disk"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "6CD1F543ED5CD048"
+					item: "acc_nocube:crushed_galo_silver_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 20L
+					icon: "phantasm:stellium_nugget"
+					id: "27515D50FFBEC03B"
+					item: "phantasm:stellium_nugget"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 124L
+					id: "62A3D84450E89BF4"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "07CE054DB9698BA9"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "52FA92C6FAEB85A3"
+					item: "dragonsurvival:elder_dragon_heart"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.11.task.1.title9999}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{image:minecraft:item/glow_berries width:50 height:50 align:1}"
+				""
+				"{chapter.1.quest.11.title9999}"
+				"{image:realistictorches:items/glowstone_paste width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "73C6BDB6AA136407"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "695A7B015EFAC54C"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					id: "7210EADE9756AA0F"
+					item: "netherdepthsupgrade:glowdine_bucket"
+					type: "item"
+				}
+				{
+					id: "74F79644A7335A76"
+					item: {
+						Count: 1b
+						id: "tarotcards:the_moon"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "0D14FC332ABF0B15"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 30L
+					id: "083A81F371A7DC2B"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 30L
+					id: "4E22007A277940C3"
+					item: "quark:glowberry_sack"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.12.description.19999}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "58A05C0F68F6AD5E"
+			rewards: [
+				{
+					count: 6
+					id: "4EB361F7857C2617"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "246A497F5895259A"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "66BDADA3427D309E"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "easy_villagers:trader"
+				id: "6E971A8E410598F2"
+				observe_type: 0
+				timer: 15L
+				to_observe: "easy_villagers:trader"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "6254089CEA915C3E"
+			rewards: [
+				{
+					count: 6
+					id: "71F74EB28B00ABB5"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EFECEE3D4148481"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "7CAC0F5418F190F7"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "easy_villagers:auto_trader"
+				id: "54015A2B815D43E8"
+				observe_type: 0
+				timer: 15L
+				to_observe: "easy_villagers:auto_trader"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "3ECCF5AD0050AF45"
+			rewards: [
+				{
+					count: 6
+					id: "35D7D1A8C7BE2C93"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AFD7E1180E67A06"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "0BE01AF5CBDD4FE6"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "easy_villagers:farmer"
+				id: "2C1DB46849BD36DF"
+				observe_type: 0
+				timer: 15L
+				to_observe: "easy_villagers:farmer"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "5EDDD9BD75AA32E6"
+			rewards: [
+				{
+					count: 6
+					id: "486588724E467EDA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "628100F0F968D17C"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "640B5E800EC4A8C9"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "easy_villagers:breeder"
+				id: "447086C3A11AC2E2"
+				observe_type: 0
+				timer: 15L
+				to_observe: "easy_villagers:breeder"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			id: "21573DC0E6E269DC"
+			rewards: [
+				{
+					count: 6
+					id: "158232369B53370F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7177D487254D8D9B"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "1421E53F4E93B05A"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "easy_villagers:incubator"
+				id: "071949FA8F022177"
+				observe_type: 0
+				timer: 15L
+				to_observe: "easy_villagers:incubator"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			id: "44C593625FC2BBE0"
+			rewards: [
+				{
+					count: 6
+					id: "2CA19D7E2192BBC7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13C18F9591706B21"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "16ED74A8261FB1AA"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "easy_villagers:converter"
+				id: "730D178F32C69311"
+				observe_type: 0
+				timer: 15L
+				to_observe: "easy_villagers:converter"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			icon: "easy_villagers:villager"
+			id: "35CEBE8A2BD2099C"
+			rewards: [
+				{
+					id: "78CF9511CBEED4AC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CBE101026119D65"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "5C01634569789DB1"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:villager_spawn_egg"
+					id: "710081D74988A440"
+					observe_type: 5
+					timer: 20L
+					to_observe: "minecraft:villager"
+					type: "observation"
+				}
+				{
+					id: "2FEC04E333F19AE8"
+					item: "tradingpost:trading_post"
+					type: "item"
+				}
+				{
+					id: "3E80283E8670A4CA"
+					item: "barteringstation:bartering_station"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{image:farmersdelight:block/tomatoes_vine_stage3 width:30 height:30 align:1}"
+				"{image:farmersdelight:block/rich_soil_farmland_moist_side width:30 height:30 align:1}"
+				""
+				"{chapter.1.quest.12.description.29999}"
+				""
+				"{image:nethersdelight:block/crimson_fungus_colony_stage3 width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "3E0F8FA324953EA7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56963917FAABCDEC"
+					table_id: 5410453719053858354L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FDD6C02BA023D21"
+					table_id: 5410453719053858354L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50986893C3862F73"
+					table_id: 5410453719053858354L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3345E986A30BB2E0"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "235BDDAF07492998"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "6BB3CA5ABCC2E9B0"
+					item: {
+						Count: 1b
+						id: "tarotcards:temperance"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "343498A181F6F727"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "7D55557802538838"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "1618F542FFDD7419"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "343FD4F64FF59833"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "225F7D4F695B6E9E"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 20L
+					id: "339FA3B8C6332CEC"
+					item: "farmersdelight:tree_bark"
+					type: "item"
+				}
+				{
+					id: "5A50B31914CCAE99"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					id: "727A264ED23FC731"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "567E27560CA2B4B3"
+					item: "nethersdelight:stuffed_hoglin"
+					type: "item"
+				}
+				{
+					id: "72573ED9793515B5"
+					item: "oceansdelight:guardian_soup"
+					type: "item"
+				}
+				{
+					id: "363258FECCC2E83B"
+					item: "ends_delight:grilled_shulker_block"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.12.subtitle9999}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: "farmersdelight:cutting_board"
+			id: "6BF5194078F31978"
+			rewards: [
+				{
+					count: 3
+					id: "65A5D4E0D26207A6"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "103A45C9B3CCB313"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "farmersdelight:cutting_board"
+					id: "59E3F6462B03F601"
+					observe_type: 0
+					timer: 15L
+					to_observe: "farmersdelight:cutting_board"
+					type: "observation"
+				}
+				{
+					consume_items: false
+					icon: {
+						Count: 1b
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3C31368CC3EA3A04"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					only_from_crafting: false
+					title: "Any #farmersdelight:tools/knives"
+					type: "item"
+				}
+				{
+					advancement: "farmersdelight:main/use_cutting_board"
+					criterion: ""
+					id: "2006BF52974F38F7"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			icon: "quark:feeding_trough"
+			id: "107A8AB301B3578A"
+			rewards: [
+				{
+					count: 15
+					id: "1D70828B3CFE6313"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "11F9BD7F432A5480"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "quark:feeding_trough"
+					id: "02FEAA9BCAA75295"
+					observe_type: 0
+					timer: 15L
+					to_observe: "quark:feeding_trough"
+					type: "observation"
+				}
+				{
+					consume_items: true
+					count: 30L
+					id: "12DB5552CE59A12F"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					advancement: "goated:husbandry/breed_a_geep"
+					criterion: ""
+					icon: {
+						Count: 1b
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:ponder_goat_horn"
+						}
+					}
+					id: "7A0C5535166D47BE"
+					type: "advancement"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "villagersellanimals:items/crate_goatlet"
+						}
+					}
+					id: "4B34459A1236D2A0"
+					observe_type: 5
+					timer: 15L
+					to_observe: "goated:geep"
+					type: "observation"
+				}
+				{
+					id: "131DD9FDEA2E9410"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "05694F5E63BF4C28"
+					item: "goated:chevon"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "1D1E3AB8A3409142"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			icon: "farmersdelight:stove"
+			id: "138105C42BE50E37"
+			rewards: [
+				{
+					count: 12
+					id: "3C09961C93765480"
+					item: "minecraft:raw_iron"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76E34552268269A7"
+					table_id: 5410453719053858354L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "352D5E8BBF5B7F37"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "farmersdelight:stove"
+					id: "6588E405686BC96E"
+					observe_type: 0
+					timer: 15L
+					to_observe: "farmersdelight:stove"
+					type: "observation"
+				}
+				{
+					icon: "ends_delight:end_stove"
+					id: "1D42F22C32C470D5"
+					observe_type: 0
+					timer: 15L
+					to_observe: "ends_delight:end_stove"
+					type: "observation"
+				}
+				{
+					icon: "nethersdelight:blackstone_stove"
+					id: "1C8069215B197377"
+					observe_type: 0
+					timer: 15L
+					to_observe: "nethersdelight:blackstone_stove"
+					type: "observation"
+				}
+				{
+					advancement: "farmersdelight:main/place_feast"
+					criterion: ""
+					id: "640DF8B214DAE60E"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "10FCAAA03E14A47D"
+			rewards: [
+				{
+					count: 10
+					id: "33DD10E33EBF6B8E"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "539726F5E9B09868"
+					table_id: 5410453719053858354L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "1CD2E3705D2A8E89"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5295F319F4BFFA60"
+					observe_type: 0
+					timer: 15L
+					to_observe: "farmersdelight:skillet"
+					type: "observation"
+				}
+				{
+					consume_items: false
+					icon: "minecraft:campfire"
+					id: "2D3728D64A0C152D"
+					item: "minecraft:campfire"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					icon: "farmersdelight:cooking_pot"
+					id: "062F647E926C3445"
+					observe_type: 0
+					timer: 15L
+					to_observe: "farmersdelight:cooking_pot"
+					type: "observation"
+				}
+				{
+					advancement: "farmersdelight:main/place_skillet"
+					criterion: ""
+					id: "58800F08681AA4D4"
+					type: "advancement"
+				}
+				{
+					advancement: "farmersdelight:main/place_cooking_pot"
+					criterion: ""
+					id: "692E1A515E9AA441"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			icon: "supplementaries:planter_rich"
+			id: "46315FCC105CBB18"
+			rewards: [
+				{
+					count: 30
+					id: "2916E846AE4A7C97"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F50B6B71D8127D2"
+					table_id: 5410453719053858354L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "56EA4F80540399EC"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "397FE18A62C48795"
+					table_id: 5410453719053858354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					icon: "farmersdelight:organic_compost"
+					id: "5B3F133905D8DBA1"
+					observe_type: 0
+					timer: 15L
+					to_observe: "farmersdelight:organic_compost"
+					type: "observation"
+				}
+				{
+					icon: "farmersdelight:rich_soil"
+					id: "3F21B477CD9D10BB"
+					observe_type: 0
+					timer: 15L
+					to_observe: "farmersdelight:rich_soil"
+					type: "observation"
+				}
+				{
+					icon: "nethersdelight:rich_soul_soil"
+					id: "5F28EDBA4F1A6426"
+					observe_type: 0
+					timer: 15L
+					to_observe: "nethersdelight:rich_soul_soil"
+					type: "observation"
+				}
+				{
+					icon: "supplementaries:planter_rich"
+					id: "5F5E5958B4793F4D"
+					observe_type: 0
+					timer: 15L
+					to_observe: "supplementaries:planter_rich"
+					type: "observation"
+				}
+				{
+					advancement: "farmersdelight:main/harvest_straw"
+					criterion: ""
+					id: "2B0DF0CAFE7430F9"
+					type: "advancement"
+				}
+				{
+					id: "623D1205B8D7C734"
+					item: "create:tree_fertilizer"
+					type: "item"
+				}
+				{
+					id: "673A818F236F2D1E"
+					item: "farmersdelight:tree_bark"
+					type: "item"
+				}
+				{
+					icon: "overweight_farming:vegetable_compost"
+					id: "5222DB2D0AE99202"
+					observe_type: 0
+					timer: 15L
+					to_observe: "overweight_farming:vegetable_compost"
+					type: "observation"
+				}
+				{
+					icon: "immersive_weathering:mulch_block"
+					id: "0913A3CAAC2D73EA"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersive_weathering:mulch_block"
+					type: "observation"
+				}
+				{
+					icon: "immersive_weathering:silt"
+					id: "40D183C9E5A1CA67"
+					observe_type: 0
+					timer: 15L
+					to_observe: "immersive_weathering:silt"
+					type: "observation"
+				}
+			]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			icon: "farmersdelight:red_mushroom_colony"
+			id: "6266586D2D473FD0"
+			rewards: [
+				{
+					count: 6
+					id: "5A273A337F34E518"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F1B45E4308D3365"
+					table_id: 5410453719053858354L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "723373CF012D5052"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "649FFCB141F75671"
+					table_id: 5410453719053858354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					icon: "farmersdelight:red_mushroom_colony"
+					id: "0FD5CD769A0BAF5F"
+					observe_type: 0
+					timer: 15L
+					to_observe: "farmersdelight:red_mushroom_colony"
+					type: "observation"
+				}
+				{
+					icon: "farmersdelight:brown_mushroom_colony"
+					id: "6BB9D1E8763F415D"
+					observe_type: 0
+					timer: 15L
+					to_observe: "farmersdelight:brown_mushroom_colony"
+					type: "observation"
+				}
+				{
+					consume_items: false
+					icon: {
+						Count: 1b
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "535D94A13B621600"
+					item: {
+						Count: 1b
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					advancement: "farmersdelight:main/get_mushroom_colony"
+					criterion: ""
+					id: "292236E1618DF570"
+					type: "advancement"
+				}
+				{
+					icon: "overweight_farming:seedless_peeled_melon"
+					id: "4B266789D55DEE7F"
+					observe_type: 0
+					timer: 15L
+					to_observe: "overweight_farming:seedless_peeled_melon"
+					type: "observation"
+				}
+				{
+					icon: "overweight_farming:overweight_apple_block"
+					id: "44DF6B03CDBD2F51"
+					observe_type: 0
+					timer: 15L
+					to_observe: "overweight_farming:overweight_apple_block"
+					type: "observation"
+				}
+				{
+					icon: "overweight_farming:overweight_poisonous_potato_block"
+					id: "4C43C573DF205D27"
+					observe_type: 0
+					timer: 15L
+					to_observe: "overweight_farming:overweight_poisonous_potato_block"
+					type: "observation"
+				}
+				{
+					icon: "overweight_farming:overweight_nether_wart_block"
+					id: "5801DA62DC3DD704"
+					observe_type: 0
+					timer: 15L
+					to_observe: "overweight_farming:overweight_nether_wart_block"
+					type: "observation"
+				}
+				{
+					icon: "overweight_farming:overweight_potato_block"
+					id: "16AA868C285B8A2E"
+					observe_type: 0
+					timer: 15L
+					to_observe: "overweight_farming:overweight_potato_block"
+					type: "observation"
+				}
+				{
+					icon: "overweight_farming:overweight_cocoa_block"
+					id: "24F372FD099AFC46"
+					observe_type: 0
+					timer: 15L
+					to_observe: "overweight_farming:overweight_cocoa_block"
+					type: "observation"
+				}
+				{
+					icon: "overweight_farming:overweight_carrot_block"
+					id: "6B6199711C7F0269"
+					observe_type: 0
+					timer: 15L
+					to_observe: "overweight_farming:overweight_carrot_block"
+					type: "observation"
+				}
+				{
+					icon: "overweight_farming:overweight_beetroot_block"
+					id: "101C139500816E5C"
+					observe_type: 0
+					timer: 15L
+					to_observe: "overweight_farming:overweight_beetroot_block"
+					type: "observation"
+				}
+				{
+					id: "401D5AC60CA8A06F"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E3F2460A504DA68"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			icon: "waterstrainer:worm"
+			id: "26F6DD736A6BA625"
+			rewards: [
+				{
+					count: 10
+					id: "7A44B8E814CD90F5"
+					item: "minecraft:raw_iron"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57992A06AC68E214"
+					table_id: 5410453719053858354L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "59F9097EF2FC6F30"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "waterstrainer:strainer_base"
+					id: "51B4B20DF39652B7"
+					observe_type: 0
+					timer: 15L
+					to_observe: "waterstrainer:strainer_base"
+					type: "observation"
+				}
+				{
+					icon: "waterstrainer:worm_bin"
+					id: "16C87D3772D5D558"
+					observe_type: 0
+					timer: 15L
+					to_observe: "waterstrainer:worm_bin"
+					type: "observation"
+				}
+				{
+					consume_items: false
+					id: "134C48CA334857EF"
+					item: "waterstrainer:string_mesh"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					icon: "waterstrainer:worm"
+					id: "1FCEB70AA795BAF0"
+					item: "waterstrainer:worm"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					icon: {
+						Count: 1b
+						id: "waterstrainer:bait_pot"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "22A1A0D20642647B"
+					item: {
+						Count: 1b
+						id: "waterstrainer:bait_pot"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					icon: "waterstrainer:efficiency_meter"
+					id: "24CFD4BE5B088211"
+					item: "waterstrainer:efficiency_meter"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			icon: "create:belt_connector"
+			id: "62DB83ABAE3FE9A3"
+			rewards: [
+				{
+					count: 5
+					id: "3987BE1E2CCD0286"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+				{
+					id: "5051D2A2212D784E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "4F9E5327801BECE4"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "create:shaft"
+					id: "7C1D13B016A7D68B"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:shaft"
+					type: "observation"
+				}
+				{
+					icon: "create:belt_connector"
+					id: "6B6F2272E4AF8492"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:belt"
+					type: "observation"
+				}
+			]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			icon: "create:large_cogwheel"
+			id: "22F363865299823A"
+			rewards: [
+				{
+					count: 5
+					id: "08A9973617F5320E"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+				{
+					id: "539332770CEF4A64"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "19ADA093991AEA9E"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "create:cogwheel"
+					id: "6945BDE4A3E93E6B"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:cogwheel"
+					type: "observation"
+				}
+				{
+					icon: "create:large_cogwheel"
+					id: "17054FE2A6600752"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:large_cogwheel"
+					type: "observation"
+				}
+				{
+					id: "6CE901E04D804D18"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			icon: "create:large_water_wheel"
+			id: "74DEC861799B8E17"
+			rewards: [
+				{
+					count: 15
+					id: "3440506C4D1B85EC"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "27649CB98EA70079"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "08D61A569A9B85DA"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "create:water_wheel"
+					id: "670DB080E381EEAA"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:water_wheel"
+					type: "observation"
+				}
+				{
+					icon: "create:white_sail"
+					id: "480DA2A63253979E"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:white_sail"
+					type: "observation"
+				}
+				{
+					icon: "create:large_water_wheel"
+					id: "7375110F472227A8"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:large_water_wheel"
+					type: "observation"
+				}
+				{
+					icon: "create:hand_crank"
+					id: "51A90A7895B51EEF"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:hand_crank"
+					type: "observation"
+				}
+				{
+					advancement: "create:windmill_maxed"
+					criterion: ""
+					id: "10DBC10810284E9B"
+					type: "advancement"
+				}
+				{
+					advancement: "create:water_wheel"
+					criterion: ""
+					id: "1F1CF1F2F08A8179"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			icon: "create:crushing_wheel"
+			id: "5F7D456F10FFC22E"
+			rewards: [
+				{
+					count: 20
+					id: "09CCC2694E8E8685"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "66D308E48F9B3F2F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 15
+					id: "3EB8F578DD37AE69"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "create:crushing_wheel"
+					id: "1FA7B24E7A7CE19F"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:crushing_wheel"
+					type: "observation"
+				}
+				{
+					advancement: "create:crusher_maxed_0000"
+					criterion: ""
+					id: "54F4D73D79C30633"
+					type: "advancement"
+				}
+				{
+					id: "56D0407B59A58F86"
+					item: "acc_nocube:crushed_galo_silver_ore"
+					type: "item"
+				}
+				{
+					id: "44D69CF17DDF532E"
+					item: "create:crushed_raw_iron"
+					type: "item"
+				}
+				{
+					id: "685646326C1842EA"
+					item: "create:crushed_raw_gold"
+					type: "item"
+				}
+				{
+					id: "7326600E4366BFFC"
+					item: "create:crushed_raw_copper"
+					type: "item"
+				}
+				{
+					id: "0F49E568D9DBCAF3"
+					item: "create:crushed_raw_zinc"
+					type: "item"
+				}
+				{
+					id: "5489F0E16B8B477F"
+					item: "create_compressed:crushed_copper_pile"
+					type: "item"
+				}
+				{
+					id: "6FCE6B0BA9589F7A"
+					item: "create_compressed:crushed_zinc_pile"
+					type: "item"
+				}
+				{
+					id: "5034B1723590E066"
+					item: "create_compressed:crushed_iron_pile"
+					type: "item"
+				}
+				{
+					id: "13E7F1000CBFB7DE"
+					item: "create_compressed:crushed_gold_pile"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			icon: "create:blaze_burner"
+			id: "3F1003429EFC5364"
+			rewards: [
+				{
+					count: 20
+					id: "2D6B35C98B223EC6"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 20
+					type: "item"
+				}
+				{
+					id: "541E35C0B9BF288C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 15
+					id: "00C55F6D12E5AAF0"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "create:blaze_burner"
+					id: "1E3EEA9527378E80"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:blaze_burner"
+					type: "observation"
+				}
+				{
+					id: "02F489A4B7F106BE"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			icon: "create:mechanical_mixer"
+			id: "5EE650523A4795DE"
+			rewards: [
+				{
+					count: 10
+					id: "1A347FCB2E880756"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "0D55E62B4BC63FF5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 15
+					id: "3082C60E1A0F8246"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "create:mechanical_mixer"
+					id: "00C92973DF3C3A55"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:mechanical_mixer"
+					type: "observation"
+				}
+				{
+					icon: "create:mechanical_press"
+					id: "668B3E6E07699C9A"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:mechanical_press"
+					type: "observation"
+				}
+				{
+					advancement: "create:mechanical_mixer"
+					criterion: ""
+					id: "57806586ACF3574E"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			icon: "create:deepslate_zinc_ore"
+			id: "24CAAF553B937278"
+			rewards: [
+				{
+					count: 5
+					id: "71D303ABF6E868AB"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+				{
+					id: "382A096D0684BF9B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "5A1AC8729CA22083"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "create:zinc_ore"
+					id: "66B392AC23FDE455"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:zinc_ore"
+					type: "observation"
+				}
+				{
+					icon: "create:deepslate_zinc_ore"
+					id: "12B43CCE12A2B6F9"
+					observe_type: 0
+					timer: 15L
+					to_observe: "create:deepslate_zinc_ore"
+					type: "observation"
+				}
+				{
+					id: "3AD92FF0244748B8"
+					item: "nocubescreateexp:exp_block"
+					type: "item"
+				}
+				{
+					id: "33C0542E8F9AD874"
+					item: "create:experience_block"
+					type: "item"
+				}
+				{
+					advancement: "create:andesite_alloy"
+					criterion: ""
+					id: "2870883074A28FBB"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: "gothic:fear_stone_block"
+			id: "25D1A16678055313"
+			rewards: [
+				{
+					id: "5DB67E7125496212"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A7BBE4ABC378270"
+					table_id: 11173363442446783L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "4EDFA5CAEE0C2A56"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C3FA63FD31352AE"
+					item: "gothic:fear_stone_block"
+					type: "item"
+				}
+				{
+					id: "128F9A81350048AC"
+					item: "torchmaster:megatorch"
+					type: "item"
+				}
+				{
+					id: "2012419569EBCDF6"
+					item: "torchmaster:dreadlamp"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			icon: "siegemachines:ballista"
+			id: "709D3B2BF9364828"
+			rewards: [
+				{
+					id: "7357350520D92B9C"
+					type: "xp"
+					xp: 60
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5093E2D49825A486"
+					table_id: 11173363442446783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "6F8A6EFBBA0163E3"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "71231E22B3748632"
+					item: "siegemachines:mortar"
+					type: "item"
+				}
+				{
+					id: "0973D9A0AF44E836"
+					item: "siegemachines:catapult"
+					type: "item"
+				}
+				{
+					id: "6BFF1FCF1DE6E10E"
+					item: "siegemachines:trebuchet"
+					type: "item"
+				}
+				{
+					id: "74DEAFBC342676D0"
+					item: "siegemachines:ballista"
+					type: "item"
+				}
+				{
+					id: "3CCA716204F41E38"
+					item: "siegemachines:battering_ram"
+					type: "item"
+				}
+				{
+					id: "424162432E8F12C9"
+					item: "siegemachines:siege_workbench"
+					type: "item"
+				}
+				{
+					id: "7AFE25F8D2CC79D0"
+					item: "blocky_siege:cannon"
+					type: "item"
+				}
+				{
+					id: "13D4F0EF6C9EF291"
+					item: "blocky_siege:mortar"
+					type: "item"
+				}
+				{
+					id: "03177E0EB06D93B0"
+					item: "blocky_siege:giant_saw_block_off"
+					type: "item"
+				}
+				{
+					id: "17446838691D7EB1"
+					item: "blocky_siege:ballista_stand"
+					type: "item"
+				}
+				{
+					id: "20CB7FDA87E41E42"
+					item: "blocky_siege:roaster_stand"
+					type: "item"
+				}
+				{
+					id: "70E5C1BBAC9A3ABB"
+					item: "blocky_siege:piglin_ballista_stand"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			icon: "minecraft:lava_bucket"
+			id: "64E687C666517478"
+			rewards: [
+				{
+					id: "04E608EB839F4F67"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "389A26344F288198"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "2CE948027ADBB41B"
+					item: "minecraft:lava_bucket"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					icon: "minecraft:water_bucket"
+					id: "743CFD5AC2FF2D03"
+					item: "minecraft:water_bucket"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			icon: "supplementaries:bamboo_spikes"
+			id: "4D15D9C3DAF38C7D"
+			rewards: [
+				{
+					id: "141E2A5B221B032A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EA16276DCB4C566"
+					table_id: 11173363442446783L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "0E091489A2442D2A"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "supplementaries:bamboo_spikes"
+					id: "2CA282F3D94272D4"
+					observe_type: 0
+					timer: 15L
+					to_observe: "supplementaries:bamboo_spikes"
+					type: "observation"
+				}
+				{
+					consume_items: false
+					id: "340EAE0FCEF0C857"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:poison"
+						}
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			icon: "supplementaries:bomb"
+			id: "5DC2782FF6DA285C"
+			rewards: [
+				{
+					id: "4BD8B7076BA96A37"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ECE68958B119AB1"
+					table_id: 11173363442446783L
+					type: "random"
+				}
+				{
+					count: 30
+					id: "06A61B6999948226"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "44EEF3966EA09572"
+					item: "supplementaries:bomb"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3661CCE3D568F66F"
+					item: "supplementaries:bomb_blue"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4F3844C69D9D8F10"
+					item: {
+						Count: 1b
+						id: "galosphere:silver_bomb"
+						tag: { }
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "74293708194790F1"
+					item: "galosphere:combustion_table"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "526CF4A31C27B223"
+					item: "infernalexp:ascus_bomb"
+					type: "item"
+				}
+				{
+					id: "0A84A338A3CF7E67"
+					item: "blocky_siege:explosive_barrel_0"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			icon: "dragonsurvival:empty_dragon_beacon"
+			id: "788D8DC7345A3092"
+			rewards: [
+				{
+					id: "4F629A6B71506D1F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "745B20AB70087B2B"
+					table_id: 11173363442446783L
+					type: "random"
+				}
+				{
+					count: 30
+					id: "102F25CE237E8E10"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5D584FA7C16ABC6F"
+					item: "dragonsurvival:dragon_beacon_peace"
+					type: "item"
+				}
+				{
+					id: "653E939E325D29BB"
+					item: "dragonsurvival:dragon_beacon_fire"
+					type: "item"
+				}
+				{
+					id: "10A8312F22CA4394"
+					item: "dragonsurvival:dragon_beacon_magic"
+					type: "item"
+				}
+				{
+					id: "498BF94D7211863F"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					id: "1B4C75EDF86F10F9"
+					item: "dragonsurvival:dragon_memory_block"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "create:potato_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "221C58DB3227B3BD"
+			rewards: [
+				{
+					id: "31784ED2E5E3BFA2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "70832A5C3F08F8C0"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03F49441EC77DF0B"
+					table_id: 11173363442446783L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "5CB2C9476EE59484"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11B5BB9568A83A1A"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{image:minecraft:textures/painting/creebet.png width:100 height:50 align:1}"
+				""
+				"{chapter.1.quest.12.task.1.title9999}"
+				""
+				"■ - Art by noirlac"
+			]
+			id: "2A56425FA208A5B7"
+			rewards: [{
+				id: "424ECA7BC739B8FB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "7B10C5962BB7526A"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.12.title9999}"
+			x: 7.105427357601002E-15d
+			y: -1.8392857142857153d
+		}
+		{
+			disable_toast: true
+			icon: "quark:spruce_chest"
+			id: "1154AF2452724352"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E2ABCD82642978D"
+					table_id: 2975054365927623318L
+					type: "random"
+				}
+				{
+					id: "4E5C3633B9AA133D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 12
+					id: "3081BE3B0E61E90F"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "279F54164CA62B60"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				only_from_crafting: false
+				title: "Any #forge:chests/wooden"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:chest"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "18E753C2FD0B86E6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0BE60ABADE05C07D"
+					table_id: 2975054365927623318L
+					type: "random"
+				}
+				{
+					id: "48F1D6EF928CCB11"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30BB4FB49F0D9886"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2744C5BC8425FFCC"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "766DF555A3401362"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "sophisticatedstorage:base_tier_wooden_storage"
+						}
+					}
+					only_from_crafting: false
+					title: "Any #sophisticatedstorage:base_tier_wooden_storage"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1B39EC6EA4AECEA7"
+					item: "sophisticatedstorage:upgrade_base"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "742F14112BEFECA8"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:packing_tape"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			icon: "ironchest:iron_chest"
+			id: "0792D6C3966829F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BEE1439E0593EA3"
+					table_id: 2975054365927623318L
+					type: "random"
+				}
+				{
+					id: "36169EEAAB66C688"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 12
+					id: "0888035CA965B96E"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3D0242B931A2EA15"
+					item: "ironchest:iron_chest"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "15F0502736884CED"
+					item: "ironchest:iron_to_gold_chest_upgrade"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			icon: "storagedrawers:spruce_full_drawers_4"
+			id: "3B83D15D8ABFA2D3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D030BA009124C5E"
+					table_id: 2975054365927623318L
+					type: "random"
+				}
+				{
+					id: "0BDF2CF6F92B777B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "736868E3A63C0C5C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "1C61666B6632317F"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "4A93409C31625234"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "storagedrawers:drawers"
+						}
+					}
+					only_from_crafting: false
+					title: "Any #storagedrawers:drawers"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "163A5972E6DF4643"
+					item: "storagedrawers:emerald_storage_upgrade"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			icon: "another_furniture:spruce_drawer"
+			id: "68F0B4CB65470BC9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22DE94D2F55807D5"
+					table_id: 2975054365927623318L
+					type: "random"
+				}
+				{
+					id: "3519B5F5FB5AC887"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 12
+					id: "127BEE141C62FB30"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "6388FE6EC94EFE4A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "another_furniture:drawers"
+					}
+				}
+				only_from_crafting: false
+				title: "Any #another_furniture:drawers"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			icon: "supplementaries:urn"
+			id: "03C8DF4E7386A420"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "471675AA3DA1B9E7"
+					table_id: 2975054365927623318L
+					type: "random"
+				}
+				{
+					id: "081E3AD824950E52"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4486FC7D1ADB67D6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2C2E0627402707BA"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "pots_and_mimics:treasure_pot"
+					id: "14B85D108410637A"
+					observe_type: 0
+					timer: 15L
+					to_observe: "pots_and_mimics:treasure_pot"
+					type: "observation"
+				}
+				{
+					icon: "pots_and_mimics:nether_treasure_pot"
+					id: "64F44E03E34E09A9"
+					observe_type: 0
+					timer: 15L
+					to_observe: "pots_and_mimics:nether_treasure_pot"
+					type: "observation"
+				}
+				{
+					icon: "pots_and_mimics:end_treasure_pot"
+					id: "57F0AA65AF1425F1"
+					observe_type: 0
+					timer: 15L
+					to_observe: "pots_and_mimics:end_treasure_pot"
+					type: "observation"
+				}
+				{
+					icon: "supplementaries:urn"
+					id: "3031ABBCE6E2F016"
+					observe_type: 0
+					timer: 15L
+					to_observe: "supplementaries:urn"
+					type: "observation"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			icon: "sophisticatedbackpacks:diamond_backpack"
+			id: "19BED8A8DB0AD6F0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E5781BC102C23C9"
+					table_id: 2975054365927623318L
+					type: "random"
+				}
+				{
+					id: "2B597461B8006DAB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "094E3E2F32D16B63"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "66DBC3B3C89A5138"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "11A99DFFF86AA01C"
+					item: "sophisticatedbackpacks:upgrade_base"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "4F8295272881E460"
+					item: "sophisticatedbackpacks:diamond_backpack"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "realistictorches:matchbox"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0FDD8CDBB9667A53"
+			rewards: [
+				{
+					id: "53AD10F22B6EF186"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "345EC9A7D42E86EA"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "7271B06B3A2AA5D6"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "140047EC035DF739"
+					item: {
+						Count: 1b
+						id: "realistictorches:matchbox"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6F261D200F66C2AA"
+					item: "realistictorches:lit_torch"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: "quark:torch_arrow"
+			id: "303468B850392CAC"
+			rewards: [
+				{
+					id: "06BE4A920869A3D1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BDBAA3EAF712218"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58922FF8769F4259"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "1C5C318A91430C58"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "342A26928AB5E99E"
+					item: "minecraft:torch"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4FEC5DCA45B0D078"
+					item: "minecraft:redstone_torch"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0BF0BFC416CECDD9"
+					item: "minecraft:soul_torch"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1FD3DA858729764C"
+					item: "quark:torch_arrow"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "679C08F3897BF623"
+					item: "galosphere:glow_flare"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			icon: "infernalexp:chiseled_glowstone_bricks"
+			id: "536357E07FF304BD"
+			rewards: [
+				{
+					id: "7DC9FCBED3EAB699"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6877A5BA98A443B5"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1321920CC9DD2E02"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 6
+					id: "045E8DF4E10A94A3"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "41C61F08EAD0B879"
+					item: "infernalexp:smooth_glowstone"
+					type: "item"
+				}
+				{
+					id: "0893B526B79BA89B"
+					item: "infernalexp:chiseled_glowstone_bricks"
+					type: "item"
+				}
+				{
+					id: "64A65F1F4124C3FB"
+					item: "infernalexp:luminous_fungus"
+					type: "item"
+				}
+				{
+					id: "29C38A9245701BF0"
+					item: "infernalexp:glow_campfire"
+					type: "item"
+				}
+				{
+					id: "5F66392AA9A15D9C"
+					item: "infernalexp:glow_lantern"
+					type: "item"
+				}
+				{
+					id: "2DE7F5F7D15EAA86"
+					item: "infernalexp:glow_torch"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			icon: "minecraft:lantern"
+			id: "5842484F6D5BE927"
+			rewards: [
+				{
+					id: "651F24027EA25AFC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74540011AF3F0312"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "367B465D8423891A"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "248859C84388A10A"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "01988FF9022F1FFF"
+					item: "minecraft:lantern"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "70E85396DAFCBE28"
+					item: "upgrade_aquatic:tooth_lantern"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "50EE70891BE0DECB"
+					item: "supplementaries:copper_lantern"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "21F18A7555AB335D"
+					item: "supplementaries:silver_lantern"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "22CEE3AFD4747D01"
+					item: "supplementaries:brass_lantern"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			icon: "supplementaries:candle_holder"
+			id: "70A56BF73D56349F"
+			rewards: [
+				{
+					id: "5C96C7D90B739660"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02DF9BF0FCEE07D0"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D01471F2009AA8C"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "79E34581C18608E7"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3BCBE10B05233075"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:candles"
+						}
+					}
+					only_from_crafting: false
+					title: "Any #minecraft:candles"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "68B186FEF1A8CE81"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "supplementaries:candle_holders"
+						}
+					}
+					only_from_crafting: false
+					title: "Any #supplementaries:candle_holders"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "762461A03BB3D1F0"
+					item: "graveyard:candle_holder"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			icon: "create:rose_quartz_lamp"
+			id: "167AE46F6D895D61"
+			rewards: [
+				{
+					id: "72551B9425243D82"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DA207AD980EB03E"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DB86B55F57B5AD2"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "1F1487A41EA3FFFD"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "37255D44F33A689D"
+					item: "create:rose_quartz_lamp"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "33323294A639E66D"
+					item: "phantasm:smooth_obsidian_lamp"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "06CFF9E966FDFD22"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:lamps"
+						}
+					}
+					only_from_crafting: false
+					title: "Any #another_furniture:lamps"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3422D489A0D48A44"
+					item: "frozenup:chilloo_feather_lamp"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "61907689ABF5DFB4"
+					item: "galosphere:lumiere_lamp"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7F391DF61498E682"
+					item: "galosphere:allurite_lamp"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "079216C5D00CB416"
+					item: "galosphere:amethyst_lamp"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "75808C5A8A79B553"
+					item: "minecraft:redstone_lamp"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4A4212F584A0D296"
+					item: "supplementaries:stone_lamp"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "43E4045DB0B2D2C5"
+					item: "minecraft:ochre_froglight"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			icon: "galosphere:chandelier"
+			id: "4FF437905B386FCC"
+			rewards: [
+				{
+					id: "469D2C50704FA85C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CC56FE8EFECA73D"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BC4A33EC60D7EB7"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "23D1E349D7086E50"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "66F5A0F5FD2FD34D"
+					item: "galosphere:chandelier"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "59F2B9AFC40C262F"
+					item: "decorative_blocks:chandelier"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "57560D33D9790324"
+					item: "decorative_blocks:soul_chandelier"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "002551C574AEA0EB"
+					item: "blocky_siege:brazier_off"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			icon: "another_furniture:oak_chair"
+			id: "7762FC8952C0A0C7"
+			rewards: [
+				{
+					id: "3AC43D796C8824CF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01C2CF645124AEDC"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "75B87562540B67A9"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4856EBEDA166DA9D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:chairs"
+						}
+					}
+					title: "Any #another_furniture:chairs"
+					type: "item"
+				}
+				{
+					id: "104A4F144D864538"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:shelves"
+						}
+					}
+					title: "Any #another_furniture:shelves"
+					type: "item"
+				}
+				{
+					id: "6708B70D3FE3C082"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:tables"
+						}
+					}
+					title: "Any #another_furniture:tables"
+					type: "item"
+				}
+				{
+					id: "259A3D46B9C4ECCA"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:stools"
+						}
+					}
+					title: "Any #another_furniture:stools"
+					type: "item"
+				}
+				{
+					id: "11596B3737E5CA7B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:shutters"
+						}
+					}
+					title: "Any #another_furniture:shutters"
+					type: "item"
+				}
+				{
+					id: "6949A8898D10B54E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:curtains"
+						}
+					}
+					title: "Any #another_furniture:curtains"
+					type: "item"
+				}
+				{
+					id: "42114FEC45115CCA"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:planter_boxes"
+						}
+					}
+					title: "Any #another_furniture:planter_boxes"
+					type: "item"
+				}
+				{
+					id: "23999B6A952B066E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:benches"
+						}
+					}
+					title: "Any #another_furniture:benches"
+					type: "item"
+				}
+				{
+					id: "1AC2813C9D379410"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:sofas"
+						}
+					}
+					title: "Any #another_furniture:sofas"
+					type: "item"
+				}
+				{
+					id: "5CDD5B854E028624"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:tall_stools"
+						}
+					}
+					title: "Any #another_furniture:tall_stools"
+					type: "item"
+				}
+				{
+					id: "13237984E2176BBA"
+					item: {
+						Count: 1b
+						id: "another_furniture:furniture_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: "xercamusic:guitar"
+			id: "5EC6AF8EB770756E"
+			rewards: [
+				{
+					id: "6DC851FC95A62719"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F61D4CC589BD15A"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "685192AE64DD7F16"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5CADC8B045C41909"
+					item: "xercamusic:guitar"
+					type: "item"
+				}
+				{
+					id: "20F5E03AB83363FB"
+					item: "xercamusic:music_sheet"
+					type: "item"
+				}
+				{
+					id: "1AEEFFD2AD9BE331"
+					item: "xercamusic:drum_kit"
+					type: "item"
+				}
+				{
+					id: "70ED5CF3BCD7622A"
+					item: "xercamusic:music_box"
+					type: "item"
+				}
+				{
+					id: "1D5EE06C94915394"
+					item: "xercamusic:metronome"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			icon: "graveyard:skull_with_rib_cage"
+			id: "408E992FA69ADC81"
+			rewards: [
+				{
+					id: "12EA68FDA3DA5069"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72C07DD44D22BB00"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "5928E3BDC8CD11C9"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "graveyard:ossuary"
+					id: "65805518B18D7FDD"
+					observe_type: 0
+					timer: 15L
+					to_observe: "graveyard:ossuary"
+					type: "observation"
+				}
+				{
+					consume_items: false
+					id: "34E67457E84AAC72"
+					item: "graveyard:dark_iron_ingot"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "461DEF23240D5197"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			icon: "supplementaries:hanging_sign_oak"
+			id: "565D9643D76670A9"
+			rewards: [
+				{
+					id: "5BED1CA414538C8E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "719350C165A14EAE"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "736D4B22D1B58C88"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "080371320827F542"
+					item: "aquaculture:oak_fish_mount"
+					type: "item"
+				}
+				{
+					id: "07BAE2F51671AE87"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:signs"
+						}
+					}
+					title: "Any #minecraft:signs"
+					type: "item"
+				}
+				{
+					id: "043238E04BE6ED5E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "supplementaries:hanging_signs"
+						}
+					}
+					title: "Any #supplementaries:hanging_signs"
+					type: "item"
+				}
+				{
+					id: "3FB44D981E2B6681"
+					item: "minecraft:item_frame"
+					type: "item"
+				}
+				{
+					id: "00E222CE1CF52007"
+					item: "minecraft:glow_item_frame"
+					type: "item"
+				}
+				{
+					id: "6065F7BB2A81A1E9"
+					item: "quark:glass_item_frame"
+					type: "item"
+				}
+				{
+					id: "268D88B0093CB4E5"
+					item: "quark:glowing_glass_item_frame"
+					type: "item"
+				}
+				{
+					id: "7B3053828AFE401E"
+					item: "minecraft:painting"
+					type: "item"
+				}
+				{
+					id: "1C6D182C1DAA5D65"
+					item: "infernalexp:infernal_painting"
+					type: "item"
+				}
+				{
+					id: "0337A41533FF2D67"
+					item: "handcrafted:fancy_painting"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			icon: "decorative_blocks:oak_beam"
+			id: "56D4E20743A89464"
+			rewards: [
+				{
+					id: "61109EF2E411D3D6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "136D492A1F8920A7"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "4D89B35281C335DF"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "06D93ADAD6ABCBC0"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "decorative_blocks:supports"
+						}
+					}
+					title: "Any #decorative_blocks:supports"
+					type: "item"
+				}
+				{
+					id: "39477E1D63ED1FE7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "decorative_blocks:seats"
+						}
+					}
+					title: "Any #decorative_blocks:seats"
+					type: "item"
+				}
+				{
+					id: "77A73B81C88BA00B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "decorative_blocks:beams"
+						}
+					}
+					title: "Any #decorative_blocks:beams"
+					type: "item"
+				}
+				{
+					id: "320D27AB6599024E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "decorative_blocks:palisades"
+						}
+					}
+					title: "Any #decorative_blocks:palisades"
+					type: "item"
+				}
+				{
+					id: "027587742E7639B3"
+					item: "decorative_blocks:bar_panel"
+					type: "item"
+				}
+				{
+					id: "40018DFDBDF47894"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "supplementaries:chains"
+						}
+					}
+					title: "Any #supplementaries:chains"
+					type: "item"
+				}
+				{
+					id: "4812B7C84874C038"
+					item: "decorative_blocks:stone_pillar"
+					type: "item"
+				}
+				{
+					id: "38076BCBC95FD575"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:fancy_beds"
+						}
+					}
+					title: "Any #handcrafted:fancy_beds"
+					type: "item"
+				}
+				{
+					id: "50D17218F39F5A81"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:chairs"
+						}
+					}
+					title: "Any #handcrafted:chairs"
+					type: "item"
+				}
+				{
+					id: "072410EBB98B0F98"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:tables"
+						}
+					}
+					title: "Any #handcrafted:tables"
+					type: "item"
+				}
+				{
+					id: "4AFA06052063BEF1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:wooden_benches"
+						}
+					}
+					title: "Any #handcrafted:wooden_benches"
+					type: "item"
+				}
+				{
+					id: "56FF7FF834404C13"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:dining_benches"
+						}
+					}
+					title: "Any #handcrafted:dining_benches"
+					type: "item"
+				}
+				{
+					id: "5E44BF216B5CFABB"
+					item: "handcrafted:hammer"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			icon: "dragonsurvival:treasure_gold"
+			id: "519D7A975DE2378D"
+			rewards: [
+				{
+					id: "46CF409099D0B8CB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79CEE7CBF81D54BA"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "2B5F98171853C6F0"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "26E7561554C5CD54"
+					item: "dragonsurvival:treasure_gold"
+					type: "item"
+				}
+				{
+					id: "2C82BD0C6C2A1D4C"
+					item: "dragonsurvival:treasure_iron"
+					type: "item"
+				}
+				{
+					id: "227BD68BC2BBEB54"
+					item: "dragonsurvival:treasure_emerald"
+					type: "item"
+				}
+				{
+					id: "1C53E42AC01BAD10"
+					item: "dragonsurvival:treasure_copper"
+					type: "item"
+				}
+				{
+					id: "013032A012E01754"
+					item: "dragonsurvival:treasure_diamond"
+					type: "item"
+				}
+				{
+					id: "5470BF529C391FDD"
+					item: "dragonsurvival:treasure_debris"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			icon: "farmersdelight:potato_crate"
+			id: "11C943E3EE0DCE7E"
+			rewards: [
+				{
+					count: 30
+					id: "5492198908D2752D"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 60
+					type: "item"
+				}
+				{
+					count: 64
+					id: "413128FC7F98FD4C"
+					item: "galosphere:glow_flare"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A63A3CD07395F9B"
+					item: "quark:apple_crate"
+					type: "item"
+				}
+				{
+					id: "573C5B2B21680073"
+					item: "quark:potato_crate"
+					type: "item"
+				}
+				{
+					id: "7201CFA20ABEC0F3"
+					item: "quark:carrot_crate"
+					type: "item"
+				}
+				{
+					id: "05ADDE64D1C9C9C9"
+					item: "quark:beetroot_crate"
+					type: "item"
+				}
+				{
+					id: "440F38B060AD6FAE"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					id: "57495E58EDCBA3BF"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					id: "666387C72EF57340"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+				{
+					id: "042D0020C9217CE5"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					id: "27820031B8218CF2"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					id: "15335005EC570322"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					id: "249B29D3B7C6EC81"
+					item: "autumnity:foul_berry_sack"
+					type: "item"
+				}
+				{
+					id: "47E674C03E989600"
+					item: "quark:cocoa_beans_sack"
+					type: "item"
+				}
+				{
+					id: "08BEE5BF23331668"
+					item: "quark:glowberry_sack"
+					type: "item"
+				}
+				{
+					id: "3C4D941DFE99A95D"
+					item: "quark:berry_sack"
+					type: "item"
+				}
+				{
+					id: "74D7210B25712170"
+					item: "quark:gunpowder_sack"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+	]
+	title: "{chapter.1.quest.12.title9999}"
+}

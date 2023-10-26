@@ -1,0 +1,785 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "forest_dragon"
+	group: "330390FADA7F7F42"
+	icon: "dragonsurvival:dragon_beacon_magic"
+	id: "16275ACC8125D430"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "dragonsurvival:textures/gui/growth/growth_forest_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "dragonsurvival:textures/gui/growth/growth_forest_2.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "dragonsurvival:textures/gui/growth/growth_forest_3.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 2.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{chapter.3.quest.1.description.1}"
+				"{image:dragonsurvival:textures/item/smelly_meat_porridge.png width:100 height:100 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/item/sweet_berries.png"
+				}
+			}
+			id: "2705ECC308C4D169"
+			rewards: [{
+				count: 5
+				id: "2DDB9FAA954D879D"
+				item: "dragonsurvival:diamond_chorus"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{chapter.3.quest.1.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					disable_toast: true
+					icon: "minecraft:porkchop"
+					id: "22787D739CB9ECBF"
+					item: "minecraft:porkchop"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					icon: "minecraft:beef"
+					id: "30BCBD47D86D0657"
+					item: "minecraft:beef"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					icon: "minecraft:mutton"
+					id: "20C1C74186C7E256"
+					item: "minecraft:mutton"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					icon: "minecraft:sweet_berries"
+					id: "7747572D5A8264C6"
+					item: "minecraft:sweet_berries"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					icon: "minecraft:chicken"
+					id: "7FB629E875365433"
+					item: "minecraft:chicken"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "78FA39B67BDD7732"
+					item: "minecraft:spider_eye"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "2BF178E93F25BEA3"
+					item: "minecraft:honey_bottle"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "241BF2CB8B8D467F"
+					item: "minecraft:poisonous_potato"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "5B8F57DFEF315115"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "7AAEED3FC25B48F0"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+			]
+			title: "{chapter.3.quest.1.title}"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2705ECC308C4D169"]
+			description: [
+				"{chapter.3.quest.2.description.1}"
+				"{image:farmersdelight:textures/block/cutting_board.png width:100 height:100 align:1}"
+				"{image:farmersdelight:textures/item/diamond_knife.png width:100 height:100 align:1}"
+			]
+			hide_dependency_lines: false
+			hide_text_until_complete: false
+			icon: "minecraft:rotten_flesh"
+			id: "1568812A2F84562A"
+			rewards: [{
+				count: 30
+				id: "3EE23F539A62CA4C"
+				item: "dragonsurvival:diamond_chorus"
+				type: "item"
+			}]
+			subtitle: "{chapter.3.quest.2.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					disable_toast: true
+					id: "3D6B8FD70F50896C"
+					item: "farmersdelight:minced_beef"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "7F367CEB09C0D547"
+					item: "farmersdelight:ham"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "116C24E92CFAD140"
+					item: "farmersdelight:chicken_cuts"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "23EFC47A04CE5FCD"
+					item: "farmersdelight:bacon"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "09B9BBC4DE1883C5"
+					item: "farmersdelight:mutton_chops"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "7AA9463C323045B2"
+					item: "minecraft:chorus_fruit"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "0B728FC659A780A9"
+					item: "minecraft:rotten_flesh"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "5AF84F4DEEB35E2D"
+					item: "gothic:meat"
+					type: "item"
+				}
+				{
+					id: "5B760CCC2E1131AE"
+					item: "gothic:bug_meat"
+					type: "item"
+				}
+				{
+					id: "75F46E5A5513663D"
+					item: "goated:chevon"
+					type: "item"
+				}
+				{
+					id: "376084611C0A904A"
+					item: "autumnity:turkey_piece"
+					type: "item"
+				}
+				{
+					id: "0E4887BD8B5C6192"
+					item: "farmersdelight:red_mushroom_colony"
+					type: "item"
+				}
+				{
+					id: "1BAE90A2B9D4074A"
+					item: "farmersdelight:brown_mushroom_colony"
+					type: "item"
+				}
+			]
+			title: "{chapter.3.quest.2.title}"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1568812A2F84562A"]
+			description: [
+				"{chapter.3.quest.3.description.1}"
+				"{image:minecraft:textures/item/diamond.png width:100 height:100 align:1}"
+			]
+			hide_dependency_lines: false
+			hide_text_until_complete: false
+			icon: "dragonsurvival:forest_dragon_treat"
+			id: "081AEDE12D555F62"
+			rewards: [{
+				count: 10
+				id: "66D89A37B5B2AA47"
+				item: "dragonsurvival:diamond_chorus"
+				type: "item"
+			}]
+			subtitle: "{chapter.3.quest.3.subtitle}"
+			tasks: [{
+				consume_items: false
+				id: "5AABDAD141BFBA29"
+				item: "dragonsurvival:forest_dragon_treat"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "{chapter.3.quest.3.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{chapter.3.quest.4.description.1}"
+				"{image:farmersdelight:textures/mob_effect/nourishment.png width:100 height:100 align:1}"
+			]
+			icon: "minecraft:bone_meal"
+			id: "07CE6109B5EC8B32"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "7C51D88E5CFB3703"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "6CA9E3D6BEE68978"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.3.quest.4.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					disable_toast: true
+					id: "21666C8F8F38FB37"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "2008196CCB54DA96"
+					item: "minecraft:composter"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					icon: "minecraft:bone_meal"
+					id: "71B57F31FE0CE247"
+					item: "minecraft:bone_meal"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "69D9BD6AB5A13048"
+					item: {
+						Count: 1b
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3EED47949B9FB6FA"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "{chapter.3.quest.4.title}"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{chapter.3.quest.5.description.1}"
+				"{image:minecraft:textures/block/bamboo_large_leaves.png width:100 height:100 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: "minecraft:grass_block"
+			id: "4A2F04C54797DD02"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "3A5615BCD3E90EBD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1AF6DEF3A067EBD3"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.3.quest.5.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "599D9FA646B6FCA4"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "213957C74F21AB46"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "146600D45494CB76"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "249C3A727BD4F135"
+					item: "minecraft:oak_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "12B3E308383EAA3F"
+					item: "minecraft:spruce_planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "23D244F056C4284C"
+					item: "minecraft:birch_planks"
+					type: "item"
+				}
+			]
+			title: "{chapter.3.quest.5.title}"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{chapter.3.quest.6.description.1}"
+				"{image:minecraft:textures/block/jungle_sapling.png width:100 height:100 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: "minecraft:jungle_log"
+			id: "6062D6720776BBE7"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "56B831DB8C3B5B26"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "square"
+			subtitle: "{chapter.3.quest.6.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				icon: "minecraft:jungle_log"
+				id: "63ECF52E955260D6"
+				item: "minecraft:jungle_log"
+				type: "item"
+			}]
+			title: "{chapter.3.quest.6.title}"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{chapter.3.quest.7.description.1}"
+				""
+				"{image:regions_unexplored:block/blackwood_branch width:200 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "074F4B9BB3C69A92"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "0DD9AA0D5F9916BF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{chapter.3.quest.7.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "6600EF1DB3CAFA9D"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0CEFE8023E6D09B4"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{chapter.3.quest.7.title}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{chapter.3.quest.8.description.1}"
+				"{image:autumnity:block/foul_berry_bush_stage2_bottom width:100 height:100 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/mob_effect/slow_falling.png"
+				}
+			}
+			id: "259DA8AB4D3C60C0"
+			rewards: [
+				{
+					icon: "minecraft:experience_bottle"
+					id: "446C181831E8AA9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "6A433C3FB657D89B"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.3.quest.8.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "1F2011DC56928840"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "559E4FDD28B641C3"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			title: "{chapter.3.quest.8.title}"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{chapter.3.quest.9.description.1}"
+				"{image:dragonsurvival:textures/block/forest_small_dragon_door.png width:100 height:100 align:1}"
+			]
+			icon: "dragonsurvival:forest_dragon_door"
+			id: "6A119ABEE762D8E9"
+			rewards: [{
+				count: 2
+				id: "456728E8DACBCAED"
+				item: "minecraft:emerald_ore"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{chapter.3.quest.9.subtitle}"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2AD479A6CE4031F2"
+					item: "dragonsurvival:forest_dragon_door"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5358512E0D8CFA89"
+					item: "dragonsurvival:forest_small_dragon_door"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7334794316310D14"
+					item: "dragonsurvival:forest_dragon_pressure_plate"
+					type: "item"
+				}
+			]
+			title: "{chapter.3.quest.9.title}"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{chapter.3.quest.10.description.1}"
+				"{image:dragonsurvival:textures/mob_effect/magic.png width:100 height:100 align:1}"
+			]
+			icon: "dragonsurvival:forest_source_of_magic"
+			id: "7ABD2941A5FAA57E"
+			rewards: [
+				{
+					count: 30
+					id: "2ECEC1E0D81F84EE"
+					item: "dragonsurvival:forest_dragon_treat"
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "6145774F5A82E77B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "4CB28109B7F7879E"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.3.quest.10.subtitle}"
+			tasks: [{
+				disable_toast: true
+				id: "03539BB2CF056632"
+				item: "dragonsurvival:forest_source_of_magic"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "{chapter.3.quest.10.title}"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["081AEDE12D555F62"]
+			description: [
+				"{chapter.3.quest.11.description.1}"
+				"{image:quark:textures/block/chorus_twist.png width:100 height:100 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: "dragonsurvival:diamond_chorus"
+			id: "3B2E6F39566753CA"
+			rewards: [{
+				count: 10
+				id: "528F84A4924C04BC"
+				item: "dragonsurvival:diamond_chorus"
+				type: "item"
+			}]
+			subtitle: "{chapter.3.quest.11.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					disable_toast: true
+					id: "6A81610523FC46B8"
+					item: "dragonsurvival:sweet_sour_rabbit"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "028D8E6CDAE17AC3"
+					item: "dragonsurvival:smelly_meat_porridge"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "7FF0B1967B95376E"
+					item: "dragonsurvival:meat_chorus_mix"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "0398240846B65223"
+					item: "dragonsurvival:meat_wild_berries"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "1FC78891E2970E80"
+					item: "netherdepthsupgrade:bonefish"
+					type: "item"
+				}
+				{
+					id: "227B01F1F5888598"
+					item: "netherdepthsupgrade:wither_bonefish"
+					type: "item"
+				}
+			]
+			title: "{chapter.3.quest.11.title}"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{chapter.3.quest.12.description.1}"
+				"{image:blackaures_paintings:textures/p19.png width:200 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "199B9424631D67BB"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "6E1ABEE609AD215C"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "{chapter.3.quest.12.subtitle}"
+			tasks: [{
+				id: "1DDA7F4D8FD63E4A"
+				title: "{chapter.3.quest.12.task.1.title}"
+				type: "checkmark"
+			}]
+			title: "{chapter.3.quest.12.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{chapter.3.quest.13.description.1}"
+				"{image:minecraft:textures/item/glow_berries.png width:100 height:100 align:1}"
+				"{image:minecraft:textures/item/glowstone_dust.png width:100 height:100 align:1}"
+				"{image:minecraft:textures/item/glow_ink_sac.png width:100 height:100 align:1}"
+			]
+			hide_text_until_complete: false
+			icon: "minecraft:glow_squid_spawn_egg"
+			id: "6DA96E5C836B3DA1"
+			rewards: [
+				{
+					id: "352259C18F53255F"
+					item: "dragonsurvival:weak_dragon_heart"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "4C12151EA458720A"
+					item: "dragonsurvival:luminous_ointment"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{chapter.3.quest.13.subtitle}"
+			tasks: [{
+				entity: "minecraft:glow_squid"
+				id: "7AA2EB89BBC47841"
+				type: "kill"
+				value: 15L
+			}]
+			title: "{chapter.3.quest.13.title}"
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+	title: "{chapter.3.title}"
+}

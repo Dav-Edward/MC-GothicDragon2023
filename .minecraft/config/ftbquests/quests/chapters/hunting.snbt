@@ -1,0 +1,3704 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "hunting"
+	group: "3452F45AD8379C9A"
+	icon: {
+		Count: 1b
+		id: "minecraft:crossbow"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1474924566BC33E2"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 22.0d
+		hover: [ ]
+		image: "dragonsurvival:textures/skills/unclaimed/acid_breath_3.png"
+		rotation: 0.0d
+		width: 35.0d
+		x: -1.0d
+		y: 2.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{image:gothic:items/book_extract_mandibles width:50 height:50 align:1}"
+				"{chapter.1.quest.17.title9999}"
+				"{image:gothic:items/meat_cooked width:50 height:50 align:1}"
+				"{chapter.1.quest.18.description.19999}"
+				"{image:gothic:items/shadowbeast_horn width:50 height:50 align:1}"
+				"{chapter.1.quest.18.title9999}"
+				""
+				"{image:gothic:items/urizel width:50 height:50 align:1}"
+				""
+				"{chapter.1.quest.19.description.19999}"
+				"{image:gothic:items/crawler_mandibles width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "74A92826D951B02B"
+			rewards: [
+				{
+					count: 120
+					id: "21B63F90C8BF6344"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 19
+					type: "item"
+				}
+				{
+					id: "1A4A324F5178A0EF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14D2220A6C34A23D"
+					table_id: 487441618020744414L
+					type: "choice"
+				}
+				{
+					id: "11208DF0CA9562E9"
+					item: {
+						Count: 1b
+						id: "tarotcards:the_empress"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "gothic:adv_extract_claws"
+					criterion: ""
+					id: "6C8DC9058161A792"
+					type: "advancement"
+				}
+				{
+					advancement: "gothic:adv_extract_fangs"
+					criterion: ""
+					id: "7CF6C36EDD7904BF"
+					type: "advancement"
+				}
+				{
+					advancement: "gothic:adv_extract_horns"
+					criterion: ""
+					id: "1F802B3E482FCA64"
+					type: "advancement"
+				}
+				{
+					advancement: "gothic:adv_extract_mandibles"
+					criterion: ""
+					id: "5AE129E4C2FC7325"
+					type: "advancement"
+				}
+				{
+					advancement: "gothic:adv_extract_pelt"
+					criterion: ""
+					id: "45513AE22537CB99"
+					type: "advancement"
+				}
+				{
+					advancement: "gothic:adv_extract_stinger"
+					criterion: ""
+					id: "44C6B85B765231B3"
+					type: "advancement"
+				}
+				{
+					advancement: "gothic:adv_extract_wings"
+					criterion: ""
+					id: "79950686D6CD3391"
+					type: "advancement"
+				}
+				{
+					advancement: "gothic:adv_extract_fat"
+					criterion: ""
+					id: "6BC6481303C44159"
+					type: "advancement"
+				}
+			]
+			title: "{chapter.1.quest.19.subtitle9999}"
+			x: -7.0d
+			y: -1.2142857142857153d
+		}
+		{
+			description: [
+				"{image:graveyard:item/fire_brazier_item width:50 height:50 align:1}"
+				""
+				"{chapter.1.quest.19.title9999}"
+				"{image:graveyard:item/bone_dagger width:50 height:50 align:1}"
+				"{chapter.1.quest.2.description.19999}"
+				"{image:graveyard:item/vial_of_blood_05 width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "532B22B9EC9BA850"
+			rewards: [
+				{
+					count: 10
+					id: "7AC0CD0A11F4A57F"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 40
+					type: "item"
+				}
+				{
+					id: "59ED85EE221E6A0E"
+					table_id: 2975054365927623318L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3495A86E11819B6C"
+					table_id: 2975054365927623318L
+					type: "random"
+				}
+				{
+					id: "531B149E4A3FDB11"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16407DE2628C0FD7"
+					table_id: 409152098153127918L
+					type: "choice"
+				}
+				{
+					id: "37185511EB923574"
+					item: {
+						Count: 1b
+						id: "tarotcards:death"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "graveyard:graveyard/lower_bone_staff"
+					criterion: ""
+					id: "5B26EEF4C9B8C3BA"
+					type: "advancement"
+				}
+				{
+					advancement: "graveyard:graveyard/middle_bone_staff"
+					criterion: ""
+					id: "364FE2DC994C6E3E"
+					type: "advancement"
+				}
+				{
+					advancement: "graveyard:graveyard/upper_bone_staff"
+					criterion: ""
+					id: "0F33D209224A3D84"
+					type: "advancement"
+				}
+				{
+					advancement: "graveyard:graveyard/summon_lich"
+					criterion: ""
+					id: "147E72AFF6D18D6F"
+					type: "advancement"
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "57CBB868C5C7601A"
+					type: "kill"
+					value: 100L
+				}
+			]
+			title: "{chapter.1.quest.2.subtitle9999}"
+			x: -4.5d
+			y: -1.2142857142857153d
+		}
+		{
+			description: [
+				"{image:netherdepthsupgrade:item/lava_fishing_rod width:50 height:50 align:1}"
+				"{chapter.1.quest.2.task.1.title9999}"
+				"{image:minecraft:textures/entity/fishing_hook.png width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "222C02AFB3180F30"
+			rewards: [
+				{
+					count: 100
+					id: "00942179711CA05F"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+				{
+					id: "3F2AAADED6F363F8"
+					type: "xp"
+					xp: 40
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C0ADE82E0977110"
+					table_id: 11173363442446783L
+					type: "choice"
+				}
+				{
+					id: "6FC5B750490A6354"
+					item: "waterstrainer:super_worm"
+					type: "item"
+				}
+				{
+					id: "0B938AD50C41FED8"
+					item: {
+						Count: 1b
+						id: "tarotcards:the_lovers"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6020A0BB0EAC6914"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "aquaculture:bobber"
+						}
+					}
+					title: "Any #aquaculture:bobber"
+					type: "item"
+				}
+				{
+					id: "7D72598071E21027"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FD75298D60C757C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "aquaculture:fishing_line"
+						}
+					}
+					title: "Any #aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "5FD19F30CB4410E4"
+					item: "aquaculture:tin_can"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "56B5DBA38F49D9E0"
+					item: "aquaculture:algae"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "7E5809B51EAEB3AC"
+					item: "aquaculture:fish_bones"
+					type: "item"
+				}
+				{
+					id: "79629C80C00F2A8B"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+				{
+					id: "0CFDA8BB9E4DD6C6"
+					item: "aquaculture:iron_hook"
+					type: "item"
+				}
+				{
+					id: "0A89F048E3D1BD7E"
+					item: {
+						Count: 1b
+						id: "netherdepthsupgrade:lava_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "427CB685DBB858B6"
+					item: {
+						Count: 1b
+						id: "aquaculture:diamond_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.26.subtitle9999}"
+			x: 3.0d
+			y: -1.2142857142857153d
+		}
+		{
+			description: [
+				"{image:minecraft:item/pillager_weapon width:50 height:50 align:1}"
+				"{chapter.1.quest.2.title99999}"
+				"{image:minecraft:item/gold_ingot width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "38D6E812FFA38B2F"
+			rewards: [
+				{
+					id: "0E7BFE12C8479107"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FDCF9CC663DCA02"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65FE694E1F8B268D"
+					table_id: 487441618020744414L
+					type: "choice"
+				}
+				{
+					id: "4EA91146367C1339"
+					item: {
+						Count: 1b
+						id: "tarotcards:judgement"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 100
+					id: "0926C775C55F0D11"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					id: "3481BA6E4D0BF872"
+					item: "savage_and_ravage:creeper_spores"
+					type: "item"
+				}
+				{
+					id: "5EAA7D756736FDDF"
+					item: "savage_and_ravage:spore_bomb"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 124L
+					id: "12E49E5671B8A759"
+					item: "savage_and_ravage:blast_proof_plating"
+					type: "item"
+				}
+				{
+					id: "263B3233D41D57F1"
+					item: {
+						Count: 1b
+						id: "savage_and_ravage:wand_of_freezing"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.28.title9999}"
+			x: 0.5d
+			y: -1.2142857142857153d
+		}
+		{
+			icon: "gothic:wolf_pelt"
+			id: "31EC3FCA8B910425"
+			rewards: [
+				{
+					count: 10
+					id: "0219CB1994DC4E74"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "560BC460B79CC2EF"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "gothic:gothic_wolf"
+				icon: "gothic:wolf_pelt"
+				id: "0A874A13ADC8156C"
+				type: "kill"
+				value: 20L
+			}]
+			x: -7.5d
+			y: 3.2857142857142847d
+		}
+		{
+			icon: "gothic:meat_bug_bucket"
+			id: "5CE8A1AD16CBCD96"
+			rewards: [
+				{
+					count: 10
+					id: "61FE168D464B6A81"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "35D694A33E948DAA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "gothic:meatbug"
+					icon: "gothic:meatbug_spawn_egg"
+					id: "7AD94824A6B22DF1"
+					type: "kill"
+					value: 20L
+				}
+				{
+					consume_items: true
+					count: 20L
+					id: "48236857AC0D7BD8"
+					item: "gothic:bug_meat"
+					type: "item"
+				}
+				{
+					id: "27207F8A6373624B"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "6139629A46AE871C"
+					item: "gothic:meat_bug_bucket"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 0.2976190476190297d
+		}
+		{
+			icon: "gothic:claws"
+			id: "32F5BE86D50B117D"
+			rewards: [
+				{
+					count: 15
+					id: "7FE8522892648A5A"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "201182F5AB3AC838"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "gothic:snapper"
+				icon: "gothic:claws"
+				id: "19E701A04E8B93F7"
+				type: "kill"
+				value: 20L
+			}]
+			x: -6.5d
+			y: 3.2857142857142847d
+		}
+		{
+			id: "69194309FC73234A"
+			rewards: [
+				{
+					count: 40
+					id: "764EF52D75456CA6"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 20
+					type: "item"
+				}
+				{
+					id: "562E60F8FE806165"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "gothic:dragon_snapper"
+				icon: "gothic:dragon_snapper_horn"
+				id: "40D956B46DDD096F"
+				type: "kill"
+				value: 20L
+			}]
+			x: -6.5d
+			y: 0.2857142857142847d
+		}
+		{
+			id: "573DB464B0A4B7CB"
+			rewards: [
+				{
+					count: 10
+					id: "1AC144740991F306"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "551EB06F01A74477"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "gothic:bloodfly"
+				icon: "gothic:bloodfly_stinger"
+				id: "58AC92B0FC16EE7B"
+				type: "kill"
+				value: 20L
+			}]
+			x: -6.5d
+			y: 4.261904761904745d
+		}
+		{
+			id: "5B184AE9F3EA23EF"
+			rewards: [
+				{
+					count: 10
+					id: "3F76B3BA9F001D7F"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "1BB963AD938B7A8B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "gothic:bloodfly_hornet"
+				icon: "gothic:desert_bloodfly_stinger"
+				id: "3F057C4FB6AC67C5"
+				type: "kill"
+				value: 20L
+			}]
+			x: -6.5d
+			y: 5.226190476190453d
+		}
+		{
+			id: "4D3A3B0DA469E17E"
+			rewards: [
+				{
+					count: 30
+					id: "263DBD42F27ED05E"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 20
+					type: "item"
+				}
+				{
+					id: "1B7143D60A0EDC6B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "gothic:shadowbeast"
+				icon: "gothic:shadowbeast_pelt"
+				id: "4EC70D9C5BE61260"
+				type: "kill"
+				value: 20L
+			}]
+			x: -6.5d
+			y: 1.2857142857142847d
+		}
+		{
+			icon: "gothic:meat"
+			id: "6AA55D106E772C59"
+			rewards: [
+				{
+					count: 20
+					id: "01F90A395533285E"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "0DB2EFCA056F0A24"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "gothic:scavenger"
+					icon: "gothic:scavenger_grilled"
+					id: "606898E47AED3029"
+					type: "kill"
+					value: 20L
+				}
+				{
+					consume_items: true
+					count: 20L
+					id: "7C3972D1188E75DD"
+					item: "gothic:meat"
+					type: "item"
+				}
+				{
+					icon: "gothic:scavenger_eggs"
+					id: "1ED38F479A4551F4"
+					observe_type: 0
+					timer: 15L
+					to_observe: "gothic:scavenger_eggs"
+					type: "observation"
+				}
+				{
+					entity: "gothic:scavenger_young"
+					icon: "gothic:scavenger_egg"
+					id: "54B586D846B523C7"
+					type: "kill"
+					value: 20L
+				}
+			]
+			x: -7.5d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "5067B40708317570"
+			rewards: [
+				{
+					count: 10
+					id: "36613622D3149E3D"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "5A589B6D2255A24F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "gothic:lurker"
+				icon: "gothic:lurker_skin"
+				id: "0664410759297DE9"
+				type: "kill"
+				value: 20L
+			}]
+			x: -7.0d
+			y: 6.285714285714285d
+		}
+		{
+			id: "453FE0F38C65E059"
+			rewards: [
+				{
+					count: 15
+					id: "28FD1DC297B1FA86"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "0F49C80670467098"
+					type: "xp"
+					xp: 70
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "gothic:ice_wolf"
+				icon: "gothic:ice_wolf_pelt"
+				id: "2BBDC3276504EE03"
+				type: "kill"
+				value: 20L
+			}]
+			x: -7.5d
+			y: 4.261904761904745d
+		}
+		{
+			icon: "gothic:molerat_fat"
+			id: "27E4A34A05A1243E"
+			rewards: [
+				{
+					count: 30
+					id: "35238493ACC4720E"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "6FECE449DF6EC8BB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "gothic:molerat"
+					icon: "gothic:molerat_spawn_egg"
+					id: "717090769A79A77F"
+					type: "kill"
+					value: 20L
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "6D7F03426D82B06D"
+					item: "gothic:molerat_fat"
+					type: "item"
+				}
+				{
+					entity: "gothic:cave_molerat"
+					icon: "gothic:cave_molerat_spawn_egg"
+					id: "7B080EE1A012E89D"
+					type: "kill"
+					value: 20L
+				}
+			]
+			x: -7.5d
+			y: 1.2857142857142847d
+		}
+		{
+			id: "1C135B5BCC7D6479"
+			rewards: [
+				{
+					count: 15
+					id: "226176F64F395C1E"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "6B265EAB15F8CCFF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "gothic:warg"
+				icon: "gothic:warg_pelt"
+				id: "64F27416D10DB85B"
+				type: "kill"
+				value: 20L
+			}]
+			x: -7.5d
+			y: 5.226190476190453d
+		}
+		{
+			id: "4F718054A393960E"
+			rewards: [
+				{
+					count: 20
+					id: "6BCAE2CE74149D1A"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "30978DE8F80829F0"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "gothic:razor"
+				icon: "gothic:fangs"
+				id: "62D7CA1FF36049AD"
+				type: "kill"
+				value: 20L
+			}]
+			x: -6.5d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "4F9A9AF1203E963C"
+			rewards: [
+				{
+					id: "13E334549728D3A7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1A80F0AA815180D2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E5D230A2AC39E69"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "59217FDE2CFD2B01"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "7A3C0DCAC450DE92"
+				type: "kill"
+				value: 20L
+			}]
+			x: 5.0d
+			y: 0.2857142857142847d
+		}
+		{
+			description: [
+				"{image:zombiemobs:textures/drowning.png width:50 height:50 align:1}"
+				"{chapter.1.quest.20.subtitle9999}"
+				""
+				"{image:zombiemobs:textures/exploding.png width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "57A19EE8E8206C6E"
+			rewards: [
+				{
+					count: 64
+					id: "7208DE01F43A1280"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+				{
+					id: "2F6B1F9EEA44BAD1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D445A8587675B84"
+					table_id: 11173363442446783L
+					type: "choice"
+				}
+				{
+					id: "357248A5BE4C8A7A"
+					item: {
+						Count: 1b
+						id: "tarotcards:the_devil"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "533B1F28BDCACF5F"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "1BA4025F1786F714"
+					item: "rottencreatures:frozen_rotten_flesh"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2C784B78D6C9702F"
+					item: "nocubes_better_smoker:cooked_rotten_flesh"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "5DFE7059939D12C9"
+					item: "rottencreatures:magma_rotten_flesh"
+					type: "item"
+				}
+			]
+			title: "{chapter.1.quest.20.task.1.title9999}"
+			x: 6.0d
+			y: -1.2142857142857153d
+		}
+		{
+			id: "68D517E49F0A4BC3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58C1617CF25472D7"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "7E7EDC2E2D532583"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 64
+					id: "3D9A0D9110EF76EC"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_spawn_egg"
+				id: "2787979E39A9C49E"
+				type: "kill"
+				value: 20L
+			}]
+			x: -5.0d
+			y: 0.2857142857142847d
+		}
+		{
+			id: "51DB72F29BC4480F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D04C9D4F9337110"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11C41DC4C7C266C4"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A01446DB472F5EC"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "010554A5B3D1577E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 40
+					id: "64323FADF32F303D"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_spawn_egg"
+				id: "735BF7102027FF0F"
+				type: "kill"
+				value: 20L
+			}]
+			x: -5.0d
+			y: 4.285714285714285d
+		}
+		{
+			id: "0466197830154B49"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54BD7F7F31D2EAB7"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F1FAA373C0B0D38"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19BE3B629A593EF6"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34E91C4E825463BA"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "36ED98C220E84ECE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 200
+					id: "72EBC8C83ECDFD4E"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: {
+					Count: 1b
+					id: "mutantmonsters:mutant_skeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "760B23DF1CAB60E7"
+				type: "kill"
+				value: 20L
+			}]
+			x: -5.0d
+			y: 3.2857142857142847d
+		}
+		{
+			id: "791BF613B7C5D16D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4AAF933564EDF29B"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EEBE7F81017F0BC"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "27FBBD754EC07B0B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 50
+					id: "7F11DC9722D59579"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "graveyard:skeleton_creeper"
+				icon: "graveyard:creeper_skeleton"
+				id: "4D50187C2F1A62C4"
+				type: "kill"
+				value: 20L
+			}]
+			x: -4.0d
+			y: 3.2857142857142847d
+		}
+		{
+			id: "65630B753F13B2A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "294DCCEA196E2ED1"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "25AC8A0E3FAC9BAE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 12
+					id: "68173AB39F8236CE"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "kobolds:kobold_skeleton"
+				icon: "kobolds:kobold_skull"
+				id: "6747037CF1D01A4B"
+				type: "kill"
+				value: 20L
+			}]
+			x: -5.0d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "79E136A7AC5F67CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "244CDF09FA4D36AD"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "0829984BE55B39E6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 64
+					id: "7E919939D459F743"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "savage_and_ravage:skeleton_villager"
+				icon: "graveyard:bone_remains"
+				id: "63B4A4A8FD8982BB"
+				type: "kill"
+				value: 20L
+			}]
+			x: -5.0d
+			y: 1.2857142857142847d
+		}
+		{
+			id: "648703B3F119CED0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7ABBF62B9DFA0D1C"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1590F013F9AEE9BC"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "77106BA0836849C2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 50
+					id: "60980ACA95B391C5"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "rottencreatures:skeleton_lackey"
+				icon: "mutantmonsters:mutant_skeleton_rib_cage"
+				id: "6CA79336459AB302"
+				type: "kill"
+				value: 20L
+			}]
+			x: -4.0d
+			y: 0.2857142857142847d
+		}
+		{
+			id: "5747F32CC69D7FEB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AF6A4A2F4441F16"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "790E4EC7D16C5F35"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "5DB5949D6C0EE4E5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 32
+					id: "2BBA76EC29800965"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "graveyard:ghoul"
+				icon: "nourished_nether:ghoulflower"
+				id: "670BA186D49F7E3D"
+				type: "kill"
+				value: 20L
+			}]
+			x: -4.0d
+			y: 1.2857142857142847d
+		}
+		{
+			id: "1141779840F06354"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33D7479F71B0F601"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "535D20AAE8B8723E"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "65FF2FAF069DAC22"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "graveyard:reaper"
+				icon: "minecraft:black_candle"
+				id: "5DC5E0758F7BF40D"
+				type: "kill"
+				value: 20L
+			}]
+			x: -4.0d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "00C36BB5DCB657A0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CDCCF5C60E77459"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5801F2FDE981C0CC"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "55597A8F0E6B1FD7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32EB6C00DC9993E7"
+					table_id: 8567660758720551313L
+					type: "choice"
+				}
+				{
+					count: 100
+					id: "5818313E55A07A31"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "graveyard:revenant"
+				icon: "minecraft:skeleton_skull"
+				id: "7E62763E0C6A8C66"
+				type: "kill"
+				value: 20L
+			}]
+			x: -4.5d
+			y: 6.285714285714285d
+		}
+		{
+			icon: "nourished_nether:soul_weeds"
+			id: "52D62190D3DA61DF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6527FC362A1E4FE0"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F568FE88FEE57CE"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "107A60065F3BF655"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 64
+					id: "5FE2F52723B02D8D"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "graveyard:wraith"
+				id: "4D3FED2AF4062D69"
+				type: "kill"
+				value: 20L
+			}]
+			x: -5.0d
+			y: 5.285714285714285d
+		}
+		{
+			icon: "minecraft:zombie_villager_spawn_egg"
+			id: "1B3929B9318ABC8C"
+			rewards: [
+				{
+					id: "77C587E73EF19CEC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "65FC11DD98625BE3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D7E229392B12144"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "6A4E77C210DB28A9"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "minecraft:zombie_villager"
+					icon: "minecraft:zombie_villager_spawn_egg"
+					id: "151FB613FE714E10"
+					type: "kill"
+					value: 20L
+				}
+				{
+					id: "2A61041B4554E03C"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28CEA00AEAD91198"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.2857142857142847d
+		}
+		{
+			id: "28841699398A11B8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45D201506D87B27E"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F5DE443F86687EE"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "410392FC0F7FF727"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 100
+					id: "3252BBC5B5A9AF74"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:stray"
+				icon: "minecraft:stray_spawn_egg"
+				id: "59DF42887047BC9B"
+				type: "kill"
+				value: 20L
+			}]
+			x: -4.0d
+			y: 4.285714285714285d
+		}
+		{
+			id: "0BDF9FCD6760D4B2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C653F3748DBB948"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D50E7F9464F13B8"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					id: "2FB7389ACB2A7EB7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 100
+					id: "7BA0157C6B7D3520"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "quark:forgotten"
+				icon: {
+					Count: 1b
+					id: "quark:forgotten_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1938625CFFACF595"
+				type: "kill"
+				value: 20L
+			}]
+			x: -4.0d
+			y: 5.285714285714285d
+		}
+		{
+			id: "2F95F4475C3C58BB"
+			rewards: [
+				{
+					id: "6639B1C4EA8B8FD7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5194D6CFD47A36FE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CD8EF0D26075CE4"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "4C3DFDFDBF14C73B"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_cow"
+				icon: "minecraft:cow_spawn_egg"
+				id: "77F9569A283DE2C0"
+				type: "kill"
+				value: 20L
+			}]
+			x: 5.0d
+			y: 1.2857142857142847d
+		}
+		{
+			id: "5EEC4B9566F719EF"
+			rewards: [
+				{
+					id: "29F02ACAACCD9230"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "435684306407674E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F8425BB5B460704"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "600D065B46FA92D3"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_pig"
+				icon: "minecraft:pig_spawn_egg"
+				id: "45374AD10BA96DE6"
+				type: "kill"
+				value: 20L
+			}]
+			x: 6.0d
+			y: 1.2857142857142847d
+		}
+		{
+			id: "1D9DCB82F3EB4B84"
+			rewards: [
+				{
+					id: "51A3138E3DD0FD8D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "34A57C73C3515D05"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06BFF3577195C452"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "23D5D083B3E5C2D7"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_llama"
+				icon: "minecraft:llama_spawn_egg"
+				id: "23AC06073067E0F4"
+				type: "kill"
+				value: 20L
+			}]
+			x: 5.0d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "4D41C327068AC38A"
+			rewards: [
+				{
+					id: "64E718687114FEE7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3CA2B8A03B391F9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FC8C00749BFE9BB"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "0172CE261C80FB02"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_goat"
+				icon: "minecraft:goat_spawn_egg"
+				id: "041DE275C7250B01"
+				type: "kill"
+				value: 20L
+			}]
+			x: 6.0d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "61532468B9836C6F"
+			rewards: [
+				{
+					id: "407F479EFA46B2E6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7678B1CA69EBEEE7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26EFBF7104913A76"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "31D57AF823FE0422"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_fox"
+				icon: "minecraft:fox_spawn_egg"
+				id: "7EB0C3A0A1BEFED4"
+				type: "kill"
+				value: 20L
+			}]
+			x: 5.0d
+			y: 3.2857142857142847d
+		}
+		{
+			id: "1896B832468E51DB"
+			rewards: [
+				{
+					id: "5C152EB07F5F4F2F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "4182E0E9D435C70D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "183ABC4938003121"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "47B0C5FA696AAB0F"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_wolf"
+				icon: "minecraft:wolf_spawn_egg"
+				id: "6407D9A93D93B5A9"
+				type: "kill"
+				value: 20L
+			}]
+			x: 6.0d
+			y: 3.2857142857142847d
+		}
+		{
+			id: "1983ADE019D697DB"
+			rewards: [
+				{
+					id: "3B92320194347F7E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5A39C74153C21E61"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A0DEB8AD00CB8B4"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "6A9152014C7E5D43"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_cat"
+				icon: "minecraft:cat_spawn_egg"
+				id: "79903A20A84065CC"
+				type: "kill"
+				value: 20L
+			}]
+			x: 5.0d
+			y: 4.285714285714285d
+		}
+		{
+			id: "6DFACF2362298A74"
+			rewards: [
+				{
+					id: "5375B66093AF7A15"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "585F06F82D048740"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08AF51E495AFB010"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "59F19239C30D1DBA"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_chicken"
+				icon: "minecraft:chicken_spawn_egg"
+				id: "31520B674474C01A"
+				type: "kill"
+				value: 20L
+			}]
+			x: 7.0d
+			y: 5.285714285714285d
+		}
+		{
+			id: "523DDB56CA1E5D13"
+			rewards: [
+				{
+					id: "64FC944760BC5F0E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "456B58E099D39C8F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "000160DF96EB3C78"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "0D82E8036FEF76C7"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_sheep"
+				icon: "minecraft:sheep_spawn_egg"
+				id: "7374BFB735993592"
+				type: "kill"
+				value: 20L
+			}]
+			x: 5.0d
+			y: 5.285714285714285d
+		}
+		{
+			id: "36BC0207395D288B"
+			rewards: [
+				{
+					id: "2E3605D6F0D14342"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "23ADDD8B72680939"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15F235CFB6BCDAE9"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "766A48EE51E7DC3D"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_bear"
+				icon: "minecraft:polar_bear_spawn_egg"
+				id: "6A02CE350A4A367E"
+				type: "kill"
+				value: 20L
+			}]
+			x: 6.0d
+			y: 5.285714285714285d
+		}
+		{
+			id: "07EFEEFD74AA78CC"
+			rewards: [
+				{
+					id: "7D28D02378618CA9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "4F4964BA428982A9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "672DFAA5A1960E9F"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "2D2D472D7007FB43"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_ocelot"
+				icon: "minecraft:ocelot_spawn_egg"
+				id: "3DCD8E02A2697322"
+				type: "kill"
+				value: 20L
+			}]
+			x: 6.0d
+			y: 4.285714285714285d
+		}
+		{
+			id: "5A01C6B1D5085596"
+			rewards: [
+				{
+					id: "27469B4641269F25"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6B461DE2B885C230"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2349F23F5323A753"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "504EEC50473B950F"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_horsee"
+				icon: "minecraft:zombie_horse_spawn_egg"
+				id: "04FC4093A0FC348C"
+				type: "kill"
+				value: 20L
+			}]
+			x: 6.0d
+			y: 6.285714285714285d
+		}
+		{
+			id: "5E60CA1DCEB79426"
+			rewards: [
+				{
+					id: "616A5141F83E1D63"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0A4C828AF2EF9510"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6323ECACBA4EC1FE"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "32C8BB618007CA1A"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_donkey"
+				icon: "minecraft:donkey_spawn_egg"
+				id: "5C58042CC3230166"
+				type: "kill"
+				value: 20L
+			}]
+			x: 7.0d
+			y: 6.285714285714285d
+		}
+		{
+			id: "7AEA2B8616FC24BD"
+			rewards: [
+				{
+					id: "3C6FC4159F367CE1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1CB0A83ECFA09305"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "636C7E1EBFFF5880"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "3E8E25F30C3B369A"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_panda"
+				icon: "minecraft:panda_spawn_egg"
+				id: "4D86B85E3B255627"
+				type: "kill"
+				value: 20L
+			}]
+			x: 7.0d
+			y: 1.2857142857142847d
+		}
+		{
+			id: "0A5F1F6352C73866"
+			rewards: [
+				{
+					id: "00464F86BCF8A3BF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "307274888BA4788F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C37FFDA5EC5B043"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "1994F21FFAF5AE18"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_mule"
+				icon: "minecraft:mule_spawn_egg"
+				id: "2BE5B89F159AB6EB"
+				type: "kill"
+				value: 20L
+			}]
+			x: 5.0d
+			y: 6.285714285714285d
+		}
+		{
+			id: "28065DAC9BC948CB"
+			rewards: [
+				{
+					id: "7DEA335FD7D395B0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0D7592082DE4482A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09B64153850B787B"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "1CD7DC5A2B55C7A1"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_dolphin"
+				icon: "minecraft:dolphin_spawn_egg"
+				id: "4839FB747D112D7E"
+				type: "kill"
+				value: 20L
+			}]
+			x: 7.0d
+			y: 4.285714285714285d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:turtle_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7AAFA6E62C1049B4"
+			rewards: [
+				{
+					id: "65C1C66FC5BB51AF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3FE877F3CACA3168"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "763ECBA58014BA72"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "6B4038642C6953B7"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "zombiemobs:zombie_turtle"
+				icon: {
+					Count: 1b
+					id: "minecraft:turtle_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0E47682B421C07D5"
+				type: "kill"
+				value: 20L
+			}]
+			x: 6.0d
+			y: 7.285714285714285d
+		}
+		{
+			icon: "mutantmonsters:mutant_zombie_spawn_egg"
+			id: "5F5C2C31CFC03172"
+			rewards: [
+				{
+					id: "5CBF3334CEC876D3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "43ED876245AC0EE3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23CD1BA3837B5422"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "552EB4202FA485AD"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_zombie"
+					icon: "mutantmonsters:mutant_zombie_spawn_egg"
+					id: "3157FB236BDDBCA9"
+					type: "kill"
+					value: 20L
+				}
+				{
+					advancement: "mutantmonsters:burn_zombie_burn"
+					criterion: ""
+					id: "497BD2F890F0F614"
+					type: "advancement"
+				}
+			]
+			x: 7.0d
+			y: 3.2857142857142847d
+		}
+		{
+			id: "42C6495E0FC8FBA3"
+			rewards: [
+				{
+					id: "69993F56F36335F5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5A52830DB7F3138B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C915FD14B1F5449"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "614233BAAED4C19B"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "kobolds:kobold_zombie"
+				icon: "kobolds:kobold_zombie_spawn_egg"
+				id: "0BE751410FC98693"
+				type: "kill"
+				value: 20L
+			}]
+			x: 7.0d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "068E1A1350B9BE8C"
+			rewards: [
+				{
+					id: "1B964497EC973F87"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "4C417972681B1313"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5995E701836F14AB"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "481FC70B9A641A95"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:drowned"
+				icon: "minecraft:drowned_spawn_egg"
+				id: "2DCC487AA3AE5C7C"
+				type: "kill"
+				value: 20L
+			}]
+			x: 7.0d
+			y: 0.2857142857142847d
+		}
+		{
+			id: "4E977CDF6BB2790A"
+			rewards: [
+				{
+					id: "477C9096BE1740C5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "128A8333DD7A708A"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "3A4A2F4B5ED7D054"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: "minecraft:pillager_spawn_egg"
+				id: "51A214FDA2C99AEC"
+				type: "kill"
+				value: 20L
+			}]
+			x: 0.0d
+			y: 0.2857142857142847d
+		}
+		{
+			id: "4B79F6F5FBBDF383"
+			rewards: [
+				{
+					id: "0070F562DBB5C885"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E70A4CCD80156A5"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "48CB126339169C14"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:evoker"
+				icon: "minecraft:evoker_spawn_egg"
+				id: "54F7D2B069AF2FE8"
+				type: "kill"
+				value: 20L
+			}]
+			x: 0.0d
+			y: 1.2857142857142847d
+		}
+		{
+			icon: "minecraft:piglin_spawn_egg"
+			id: "4D1FD4B25A4C3862"
+			rewards: [
+				{
+					id: "524068699767811E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65E0F740C921AB52"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "33AEB80736C54EDF"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "minecraft:piglin"
+					icon: "minecraft:piglin_spawn_egg"
+					id: "1E133A2FA7E73F89"
+					type: "kill"
+					value: 20L
+				}
+				{
+					advancement: "minecraft:nether/distract_piglin"
+					criterion: ""
+					id: "2AB62101FFE3868D"
+					type: "advancement"
+				}
+			]
+			x: 1.0d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "19D66D237713E0C2"
+			rewards: [
+				{
+					id: "0431691810F56173"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EBE3D58122BA550"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "4BC0E0CC5AE4BB88"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				icon: "minecraft:piglin_brute_spawn_egg"
+				id: "53C1733F4AB84276"
+				type: "kill"
+				value: 20L
+			}]
+			x: 1.0d
+			y: 3.2857142857142847d
+		}
+		{
+			id: "3B537DD7BED93763"
+			rewards: [
+				{
+					id: "0213DA1FDB3629A3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A7D061C8A72AA88"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "4134F41BD8C3EE9B"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "savage_and_ravage:executioner"
+				icon: {
+					Count: 1b
+					id: "nourished_nether:necronium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "16F74F055C393863"
+				type: "kill"
+				value: 20L
+			}]
+			x: 0.0d
+			y: 4.285714285714285d
+		}
+		{
+			id: "23F88352609AB7E9"
+			rewards: [
+				{
+					id: "00E9ABD9D1549A69"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F92CB8608351FE2"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "52E1783E22623636"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "savage_and_ravage:griefer"
+				icon: "minecraft:tnt"
+				id: "47473B1F1C7CB340"
+				type: "kill"
+				value: 20L
+			}]
+			x: 0.0d
+			y: 5.285714285714285d
+		}
+		{
+			id: "6472E436FB6C868E"
+			rewards: [
+				{
+					id: "15EDE583D4000B55"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "706B03574F57A124"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "1FBB58FFB0B65EAC"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "savage_and_ravage:iceologer"
+				icon: "minecraft:ice"
+				id: "5B1A0BB533B32E2E"
+				type: "kill"
+				value: 20L
+			}]
+			x: 0.5d
+			y: 6.285714285714285d
+		}
+		{
+			id: "4E95E12D5FD2A588"
+			rewards: [
+				{
+					id: "40039C0616B176A5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66E8FBE8B6131843"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "1912EA64520D4328"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "savage_and_ravage:trickster"
+				icon: {
+					Count: 1b
+					id: "savage_and_ravage:mask_of_dishonesty"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0471E8AEE46C8290"
+				type: "kill"
+				value: 20L
+			}]
+			x: 1.0d
+			y: 5.285714285714285d
+		}
+		{
+			id: "51543125EE3A8806"
+			rewards: [
+				{
+					id: "7B18E8D6152E1604"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ACB42BDE43C3B64"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "7FD29CA3999ADE64"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "hunterillager:hunterillager"
+				icon: {
+					Count: 1b
+					id: "magistuarmory:heavy_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0538009F866DB033"
+				type: "kill"
+				value: 20L
+			}]
+			x: 1.0d
+			y: 4.285714285714285d
+		}
+		{
+			description: [
+				"{image:orcz:items/claw width:50 height:50 align:1}"
+				"{chapter.1.quest.20.title9999}"
+				"{image:orcz:blocks/orc_shroom2 width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "0135C512B9B499EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BABAE7C6E5056EF"
+					table_id: 2975054365927623318L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64B9FC41FE12167E"
+					table_id: 2975054365927623318L
+					type: "random"
+				}
+				{
+					id: "02FF71D4C286302F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 15
+					id: "295680D17FCBBACF"
+					item: "gothic:magic_ore_nugget"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A6B4DEC113E5838"
+					table_id: 487441618020744414L
+					type: "choice"
+				}
+				{
+					id: "7EBE65E094065513"
+					item: {
+						Count: 1b
+						id: "tarotcards:strength"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "1719A0424FA718C1"
+					item: "orcz:orcteeth"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "23EBDDB0B9F04EAC"
+					item: "orcz:squigs_claws"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "1A22368237E26996"
+					item: "orcz:orchorn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 124L
+					id: "3F467F678D0423AA"
+					item: "orcz:ironscrap"
+					type: "item"
+				}
+				{
+					icon: "goblintraders:goblin_trader_spawn_egg"
+					id: "738E6F422C04EF01"
+					observe_type: 5
+					timer: 10L
+					to_observe: "goblintraders:goblin_trader"
+					type: "observation"
+				}
+			]
+			title: "{chapter.1.quest.26.title9999}"
+			x: -2.0d
+			y: -1.2142857142857153d
+		}
+		{
+			id: "69B46E9C575FBC5C"
+			rewards: [
+				{
+					count: 10
+					id: "5ECB3F04E32FF9F4"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "222CD2A1106C0F63"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:orcsavage_2sword"
+				icon: {
+					Count: 1b
+					id: "orcz:orcteeth_tool_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5ED985D2E939D9F7"
+				type: "kill"
+				value: 20L
+			}]
+			x: -2.5d
+			y: 0.2857142857142847d
+		}
+		{
+			id: "40997074472054FC"
+			rewards: [
+				{
+					count: 10
+					id: "54F8652F0F6AC88A"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "3D8248D37328F07A"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:orcshield"
+				icon: {
+					Count: 1b
+					id: "magistuarmory:wood_heatershield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "102B3D1E49EF21DB"
+				type: "kill"
+				value: 20L
+			}]
+			x: -2.5d
+			y: 1.2857142857142847d
+		}
+		{
+			id: "401D152B12A19730"
+			rewards: [
+				{
+					count: 10
+					id: "3B24DA6308F5B559"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "35327EA0B07C8C1E"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:bigorcboss"
+				icon: "dragonsurvival:broken_knight_helmet_2"
+				id: "05547B7B1387E145"
+				type: "kill"
+				value: 20L
+			}]
+			x: -2.5d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "79839B47748FF58D"
+			rewards: [
+				{
+					count: 10
+					id: "4DF0B4D6FCB9EF6E"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "740A29E12928F37F"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:orcsavage_2swordiron"
+				icon: {
+					Count: 1b
+					id: "magistuarmory:rusted_bastardsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4E3A16B32D428D09"
+				type: "kill"
+				value: 20L
+			}]
+			x: -2.5d
+			y: 3.2857142857142847d
+		}
+		{
+			id: "07E5A445F6D5D99D"
+			rewards: [
+				{
+					count: 10
+					id: "1ED97D54F1659D03"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "3C8B771903E029B5"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:orcshieldiron"
+				icon: {
+					Count: 1b
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "21680F63F852FB05"
+				type: "kill"
+				value: 20L
+			}]
+			x: -2.5d
+			y: 4.285714285714285d
+		}
+		{
+			id: "4328AFD13D8A51BE"
+			rewards: [
+				{
+					count: 10
+					id: "29F97947DEBFA748"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6D67E79B2614F58B"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:orcsavageweird"
+				icon: "upgrade_aquatic:black_bedroll"
+				id: "17B9451673EC63C4"
+				type: "kill"
+				value: 20L
+			}]
+			x: -2.0d
+			y: 6.285714285714285d
+		}
+		{
+			id: "22DBD14E8ADBCBA7"
+			rewards: [
+				{
+					count: 10
+					id: "0391CA9D5A3E7EDA"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "77921ED86F94F5EE"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:orcsavagemace"
+				icon: {
+					Count: 1b
+					id: "magistuarmory:stone_heavymace"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "33E3F227F1A1D1F1"
+				type: "kill"
+				value: 20L
+			}]
+			x: -2.5d
+			y: 5.285714285714285d
+		}
+		{
+			id: "37E53F7695DAF95D"
+			rewards: [
+				{
+					count: 10
+					id: "76EDD0BEFB71371B"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4F3764C6D55C14C6"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:orcsavagemaceiron"
+				icon: {
+					Count: 1b
+					id: "magistuarmory:silver_heavymace"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "456C1152C01A2E6E"
+				type: "kill"
+				value: 20L
+			}]
+			x: -1.5d
+			y: 5.285714285714285d
+		}
+		{
+			id: "237E50F4632EC9C1"
+			rewards: [
+				{
+					count: 10
+					id: "453F27558FF3C399"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3087341AC30C8005"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:orcsavagegroupleader"
+				icon: {
+					Count: 1b
+					id: "upgradednetherite:gold_upgraded_netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "09BBDC44ADF07C72"
+				type: "kill"
+				value: 20L
+			}]
+			x: -1.5d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "143ED85FEE04149A"
+			rewards: [
+				{
+					count: 10
+					id: "4C46E99477C9070B"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7E9A496A56C56A6F"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:orcirongroupleader"
+				icon: {
+					Count: 1b
+					id: "nethersdelight:golden_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3442BF196DA53D78"
+				type: "kill"
+				value: 20L
+			}]
+			x: -1.5d
+			y: 1.2857142857142847d
+		}
+		{
+			id: "50024BB3976A761B"
+			rewards: [
+				{
+					count: 10
+					id: "7CE14D7A600C5730"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "3285FEC5179EF856"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:weirdboinecro"
+				icon: "quark:black_corundum_cluster"
+				id: "0C3E41BFEB682C2D"
+				type: "kill"
+				value: 20L
+			}]
+			x: -1.5d
+			y: 0.2857142857142847d
+		}
+		{
+			id: "765CF55660189788"
+			rewards: [
+				{
+					count: 10
+					id: "3E29C25FBB7635EC"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "374AC5A677900903"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:savageorc"
+				icon: {
+					Count: 1b
+					id: "magistuarmory:crusader_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1BD9B94AC0E523C1"
+				type: "kill"
+				value: 20L
+			}]
+			x: -1.5d
+			y: 3.2857142857142847d
+		}
+		{
+			id: "41AED566025CF219"
+			rewards: [
+				{
+					count: 10
+					id: "2140E9A6263D7683"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "599EA4D22ABC8CEC"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "orcz:savageorciron"
+				icon: "quark:iron_ladder"
+				id: "5B4A19CE1C8C36F8"
+				type: "kill"
+				value: 20L
+			}]
+			x: -1.5d
+			y: 4.285714285714285d
+		}
+		{
+			id: "4152EC9D001022A9"
+			rewards: [
+				{
+					id: "4AF3FC9162AB5AD2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "333E6ED975561B7E"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "116FD63A74325F11"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:vindicator"
+				icon: "minecraft:vindicator_spawn_egg"
+				id: "66A2B901725BC16C"
+				type: "kill"
+				value: 20L
+			}]
+			x: 0.0d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "4108AD7BA3E5660D"
+			rewards: [
+				{
+					id: "706EAE5B6F76FECD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D131C91BA4518CC"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "276E795296FC999C"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:illusioner"
+				icon: "ftbquests:book"
+				id: "29E3E7DB0FD2474E"
+				type: "kill"
+				value: 20L
+			}]
+			x: 0.0d
+			y: 3.2857142857142847d
+		}
+		{
+			id: "1D9F36A24D4B2497"
+			rewards: [
+				{
+					id: "694C5641404813EC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AE34720B2C21CAA"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "57956DDC87CE8E8B"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: "minecraft:witch_spawn_egg"
+				id: "2E4C293EA73D8396"
+				type: "kill"
+				value: 20L
+			}]
+			x: 1.0d
+			y: 1.2857142857142847d
+		}
+		{
+			id: "7E90B2B68E7790EE"
+			rewards: [
+				{
+					id: "1C8A3BA3E75CE1D6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "322A2F9E002847E4"
+					table_id: 8658179370648567111L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "52FF55BB4389DA21"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:vex"
+				icon: "minecraft:vex_spawn_egg"
+				id: "5346745DF6A2DC7C"
+				type: "kill"
+				value: 20L
+			}]
+			x: 1.0d
+			y: 0.2857142857142847d
+		}
+		{
+			id: "792423B11D708141"
+			rewards: [
+				{
+					id: "273089DF5227F675"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D2501AEF501F41A"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "0F528AE3ED0085C3"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:cod"
+				icon: "minecraft:cod_spawn_egg"
+				id: "72A393CA411C6994"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: 0.2857142857142847d
+		}
+		{
+			id: "7DB1534AE1F7F2E3"
+			rewards: [
+				{
+					id: "6A7B48109401A8F6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57AA18EFB6277614"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "51B7F4797975C2FE"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:salmon"
+				icon: "minecraft:salmon_spawn_egg"
+				id: "035CEB89BF811337"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: 1.2857142857142847d
+		}
+		{
+			id: "29B3E0466AB00D59"
+			rewards: [
+				{
+					id: "23A120189AF6A7BB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76BB6DFE81F67EE7"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 18
+					id: "1FD446591635CC5C"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:guardian"
+				icon: "minecraft:guardian_spawn_egg"
+				id: "29D12F548542502F"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: 4.285714285714285d
+		}
+		{
+			id: "00571BB2999E2170"
+			rewards: [
+				{
+					id: "60944D1482D8C7F5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47E3A97E807123E0"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 18
+					id: "30CF70000533ECD2"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:elder_guardian_spawn_egg"
+				id: "3A6FC7BD4C2882A9"
+				type: "kill"
+				value: 20L
+			}]
+			x: 3.5d
+			y: 4.285714285714285d
+		}
+		{
+			id: "64AFFF9B93AF8D14"
+			rewards: [
+				{
+					id: "27E80206937905FC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "494080F564C3C431"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 18
+					id: "32EE7E0DBCDB53C0"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:tropical_fish"
+				icon: "minecraft:tropical_fish_spawn_egg"
+				id: "1949D446AFF07FCD"
+				type: "kill"
+				value: 20L
+			}]
+			x: 3.5d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "16329E1DE97BA02B"
+			rewards: [
+				{
+					id: "0FAEFCFF7C5DD60B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "166BB9ACA46444E2"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 18
+					id: "627C2413878AEA56"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:squid"
+				icon: "minecraft:squid_spawn_egg"
+				id: "7887A48383AD116A"
+				type: "kill"
+				value: 20L
+			}]
+			x: 3.5d
+			y: 3.2857142857142847d
+		}
+		{
+			id: "39F04B16EA231641"
+			rewards: [
+				{
+					id: "77DEBB0678E8302A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00346100228B2A5E"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 18
+					id: "44C4C5D9F2DB652C"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:glow_squid"
+				icon: "minecraft:glow_squid_spawn_egg"
+				id: "4EBF42583A1B0876"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: 3.2857142857142847d
+		}
+		{
+			id: "1FDDD2E2C984F99A"
+			rewards: [
+				{
+					id: "1AB9D7CB3F5CD7AD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E66D4BAEC51B7DE"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 18
+					id: "41D9A542109D2AB7"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:pufferfish"
+				icon: "minecraft:pufferfish_spawn_egg"
+				id: "19512333DBD2FC3B"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: 2.2857142857142847d
+		}
+		{
+			id: "5BE8964F52E392AA"
+			rewards: [
+				{
+					id: "5E5E7F59CC5401CA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78963DC28611A003"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 18
+					id: "1EFDE2C10FF081B1"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "upgrade_aquatic:thrasher"
+				icon: "upgrade_aquatic:thrasher_tooth"
+				id: "744761E763FF7B80"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: 5.285714285714285d
+		}
+		{
+			id: "725D60B355DFB5DA"
+			rewards: [
+				{
+					id: "71254DDEA8283F67"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "150EEE19EABCB441"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "5B21475D83E1CE49"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "upgrade_aquatic:great_thrasher"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "upgrade_aquatic:textures/entity/thrasher/sonar.png"
+					}
+				}
+				id: "370096BF34A865D5"
+				type: "kill"
+				value: 20L
+			}]
+			x: 3.5d
+			y: 5.285714285714285d
+		}
+		{
+			id: "3C9454E736221C92"
+			rewards: [
+				{
+					id: "02804D14C1C9CDF1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4466D67AE8CB98D4"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "3FC545B5DCD9009E"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "upgrade_aquatic:nautilus"
+				icon: "minecraft:nautilus_shell"
+				id: "2FD1B3D4DD4821E2"
+				type: "kill"
+				value: 20L
+			}]
+			x: 3.0d
+			y: 6.285714285714285d
+		}
+		{
+			id: "387B2F24E578BCDC"
+			rewards: [
+				{
+					id: "3BEA197EACC90EA0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25B651C313C34A7E"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 18
+					id: "4581EDCDA8A50C02"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "aquaculture:gar"
+				icon: "aquaculture:gar"
+				id: "00FCAAE4E1171E1B"
+				type: "kill"
+				value: 20L
+			}]
+			x: 3.5d
+			y: 1.2857142857142847d
+		}
+		{
+			id: "6617EA30F8F9C6C8"
+			rewards: [
+				{
+					id: "7843F00D3B5CBF51"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2951A0E0E170879E"
+					table_id: 8567660758720551313L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "7934394DD64E3436"
+					item: "gothic:magic_ore_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "aquaculture:carp"
+				icon: "aquaculture:carp"
+				id: "2AFAD95616D18057"
+				type: "kill"
+				value: 20L
+			}]
+			x: 3.5d
+			y: 0.2857142857142847d
+		}
+		{
+			description: [
+				"{image:paintings:textures/painting/cat.png width:100 height:50 align:1}"
+				""
+				"{chapter.1.quest.21.description.19999}"
+				""
+				"■ - Art by brullov"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/accept_gray"
+				}
+			}
+			id: "0F8E84033B1792E9"
+			rewards: [{
+				id: "59653B310DB4BC72"
+				type: "xp"
+				xp: 5
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "58075C817CD2EE3B"
+				type: "checkmark"
+			}]
+			title: "{chapter.1.quest.21.subtitle9999}"
+			x: -0.4523809523809774d
+			y: -3.0d
+		}
+	]
+	title: "{chapter.1.quest.21.subtitle9999}"
+}

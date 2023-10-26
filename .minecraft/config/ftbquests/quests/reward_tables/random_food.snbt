@@ -1,0 +1,19 @@
+{
+	id: "4C263ECEC13E91CD"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 3, item: "gothic:cheese" }
+		{ count: 3, item: "gothic:meatbug_ragout" }
+		{ count: 8, item: "gothic:bug_meat" }
+		{ count: 8, item: "gothic:meat" }
+		{ count: 2, item: "gothic:grape" }
+		{ count: 3, item: "gothic:lamb_sausage" }
+		{ count: 2, item: "gothic:stew" }
+		{ item: "gothic:molerat_soup" }
+		{ item: "dragonsurvival:hot_dragon_rod" }
+		{ item: "dragonsurvival:meat_wild_berries" }
+		{ item: "dragonsurvival:seasoned_fish" }
+	]
+	title: "Random Food"
+}

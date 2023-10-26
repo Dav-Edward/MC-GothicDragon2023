@@ -1,0 +1,7 @@
+{
+	id: "041CCC750CD2382C"
+	loot_size: 1
+	order_index: 17
+	rewards: [{ item: "nourished_nether:netherite_nugget", random_bonus: 1 }]
+	title: "Netherite"
+}
